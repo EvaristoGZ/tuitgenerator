@@ -8,7 +8,7 @@ def hello():
 
 @route('/')
 def index():
-	return template('index.tpl')
+	return template('/views/index.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
