@@ -6,7 +6,7 @@ print "tuitgenerator || Generar código HTML para acciones en Twitter"
 def hello():
     return "Hello World! OK"
 
-@route('/')
+@get('/')
 def index():
 	return template('index.tpl')
 
