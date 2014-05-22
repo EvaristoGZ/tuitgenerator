@@ -1,15 +1,20 @@
 # -*- coding: utf-8 -*-
 import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH
-print "tuitgenerator || Generar código HTML para acciones en Twitter"
 
 @route('/hola')
 def hello():
 	return "Hello World! OK"
 
-@get('/')
+@route('/')
 def index():
-	return template('index.tpl')
+	texto = ""
+	return template("index.tpl",texto=texto)
+
+@route('/result')
+def recibir():
+	texto = ""
+	return template("result.tpl")
 
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False
