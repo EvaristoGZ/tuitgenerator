@@ -1,30 +1,12 @@
-Bottle on OpenShift
-===================
+tuitgenerator
+=============
 
-This git repository helps you get up and running quickly w/ a Bottle installation
-on the Red Hat OpenShift PaaS.
+Proyecto desarrollado en Python para generar código HTML con funciones sobre Twitter. Se trata de un proyecto para el módulo de Lenguaje de Marcas del IES Gonzalo Nazareno de Dos Hermanas.
 
 
-Running on OpenShift
-----------------------------
+# Finalidad #
+La finalidad de esta aplicación web es la de generar código HTML tras recibir una serie de parámetros. Este código será un link que cumplirá una función sobre un tweet o perfil en Twitter. A través de una ventana popup de Twitter podrá tuitearse un mensaje, generar un retuit sobre un mensaje, marcar como favorito un mensaje o seguir a un usuario de Twitter.
 
-Create an account at https://www.openshift.com/
 
-Create a python application
-
-    rhc app create bottle python-2.6
-
-Add this upstream bottle repo
-
-    cd bottle
-    git remote add upstream -m master git://github.com/openshift-quickstart/bottle-openshift-quickstart.git
-    git pull -s recursive -X theirs upstream master
-    
-Then push the repo upstream
-
-    git push
-
-That's it, you can now checkout your application at:
-
-    http://bottle-$yournamespace.rhcloud.com
-
+# API a utilizar #
+Para el desarrollo de este proyecto se utiliza la API v1.1 de Twitter. Se utiliza [Web Intents](hhttps://dev.twitter.com/docs/intents "Ver la documentación de Web Intents") para generar la URL que lanza el popup.
