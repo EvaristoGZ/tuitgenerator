@@ -9,12 +9,12 @@ def hello():
 @route('/')
 def index():
 	texto = ""
-	return template("index.tpl",texto=texto)
+	return template("index.tpl")
 
-@route('/result')
+@post('/')
 def recibir():
-	texto = ""
-	return template("result.tpl")
+	texto=request.forms.get('texto')
+	return template("result.tpl",texto=texto)
 
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False
