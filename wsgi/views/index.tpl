@@ -8,7 +8,7 @@
 <body>
 <div id="container">
 <h1>tuitgenerator</h1>
-	<form id="formulario" action="/">
+	<form id="formulario" action="/" method="post">
 		<ul>
 			<li>
 				<label for="text">Contenido del tuit</label>
