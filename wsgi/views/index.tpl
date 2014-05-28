@@ -12,7 +12,7 @@
 		<ul>
 			<li>
 				<label for="text">Contenido del tuit</label>
-				<input type="text" id="formtext" name="texto" required aria-required="true" placeholder="Contenido" pattern="\S{1,}" autofocus>
+				<input type="text" id="formtext" name="text" required aria-required="true" placeholder="Contenido" pattern="\S{1,}" autofocus>
 			</li>
 			<li>
 				<input value="Enviar" type="submit">

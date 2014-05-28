@@ -8,7 +8,7 @@
 <body>
 <div id="container">
 <p>Aquí debe ir el resultado</p>
-<p>{{texto}}</p>
+<p>{{text}}</p>
 </div>
 </body>
 </html>
