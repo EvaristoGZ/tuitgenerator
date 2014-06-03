@@ -5,19 +5,19 @@ from funciones import tweet
 
 @get('/css/<filename:re:.*>')
 def sever_static(filename):
-    return static_file(filename, root='css')
+    return static_file(filename, root='./css')
 
 @get('/img/<filename:re:.*>')
 def sever_static(filename):
-    return static_file(filename, root='img')
+    return static_file(filename, root='./img')
 
 @get('/js/<filename:re:.*>')
 def sever_static(filename):
-    return static_file(filename, root='js')
+    return static_file(filename, root='./js')
 
 @get('/fonts/<filename:re:.*>')
 def sever_static(filename):
-    return static_file(filename, root='fonts')
+    return static_file(filename, root='./fonts')
 
 @route('/hola')
 def hello():
