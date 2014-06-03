@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
@@ -16,7 +16,7 @@
 				padding-top: 50px;
 				padding-bottom: 20px;
 			}
-        </style>
+		</style>
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/main.css">
 
@@ -44,17 +44,27 @@
 	<div class="jumbotron">
 	  <div class="container">
 		<h1>Hello, world!</h1>
-	<form id="formulario" action="/" method="post">
-		<label for="text">Contenido del tuit</label>
-		<input type="text" id="formtext" name="text" required aria-required="true" placeholder="Texto">
-		<input type="text" id="formtext" name="url" aria-required="true" placeholder="URL" pattern="\S{1,}">
-		<input type="text" id="formtext" name="in_reply_to" aria-required="true" placeholder="In reply to" pattern="\S{1,}">
-		<input type="text" id="formtext" name="via" aria-required="true" placeholder="Vía" pattern="\S{1,}">
-		<input type="text" id="formtext" name="hashtags" aria-required="true" placeholder="Hashtags" pattern="\S{1,}">
-		<input type="text" id="formtext" name="related" aria-required="true" placeholder="Relacionados" pattern="\S{1,}">
-		</li>
-		<input value="Enviar" type="submit">
-	</form>
+			<form id="formulario">
+			<div class="col-md-12">
+				<input name="text" id="text" type="text" required aria-required="true" placeholder="Texto">
+			</div>
+			<div class="col-md-6">
+				<input name="url" id="url" type="text" aria-required="true" placeholder="URL">
+			</div>
+			<div class="col-md-6">
+				<input name="in_reply_to" id="in_reply_to" type="text" aria-required="true" placeholder="En respuesta a">
+			</div>
+			<div class="col-md-4">
+				<input name="via" id="via" type="text" aria-required="true" placeholder="Vía">
+			</div>
+			<div class="col-md-4">
+				<input name="hashtags" id="hashtags" type="text" aria-required="true" placeholder="Hashtags">
+			</div>
+			<div class="col-md-4">
+				<input name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
+			</div>
+			<input value="Enviar" type="submit" class="btn btn-primary btn-lg" role="button">
+			</form>
 		<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
 		</div>
 	</div>
