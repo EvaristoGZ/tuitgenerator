@@ -44,7 +44,7 @@
 	<div class="jumbotron">
 	  <div class="container">
 		<h1>Hello, world!</h1>
-			<form id="formulario">
+			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
 				<input name="text" id="text" type="text" required aria-required="true" placeholder="Texto">
 			</div>
