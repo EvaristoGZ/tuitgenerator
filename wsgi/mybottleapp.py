@@ -3,19 +3,19 @@ import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH
 from funciones import tweet
 
-@get('/css/<filename:re:.*>')
+@get('/css/<filename>')
 def sever_static(filename):
     return static_file(filename, root='./css')
 
-@get('/img/<filename:re:.*>')
+@get('/img/<filename>')
 def sever_static(filename):
     return static_file(filename, root='./img')
 
-@get('/js/<filename:re:.*>')
+@get('/js/<filename>')
 def sever_static(filename):
     return static_file(filename, root='./js')
 
-@get('/fonts/<filename:re:.*>')
+@get('/fonts/<filename>')
 def sever_static(filename):
     return static_file(filename, root='./fonts')
 
