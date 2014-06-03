@@ -5,8 +5,10 @@ def tweet():
 	link = "https://twitter.com/intent/tweet?"
 	if len(text) != 0:
 		text = "&text="+text
+		text = urllib.quote(text)
 	if len(url) != 0:
 		url = "&url="+url
+		text = urllib.quote(url)
 	if len(via) != 0:
 		via = "&via="+via
 	if len(url) != 0:
