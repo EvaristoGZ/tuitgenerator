@@ -7,8 +7,8 @@
 </head>
 <body>
 <div id="container">
-<p>Aquí debe ir el resultado</p>
-<p>{{text}}</p>
+<p>Esta es la URL generada mediante Web Intents:</p>
+<p>{{resultado}}</p>
 </div>
 </body>
 </html>

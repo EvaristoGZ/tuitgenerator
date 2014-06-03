@@ -1,26 +1,23 @@
 # -*- coding: utf-8 -*-
 import urllib
 
-def tweet():
+def tweet(text,url,via,in_reply_to,hashtags,related):
 	link = "https://twitter.com/intent/tweet?"
 	if len(text) != 0:
-		text = "&text="+text
-		text = urllib.quote(text)
+		text = "&text="+urllib.quote(text)
 	if len(url) != 0:
-		url = "&url="+url
-		text = urllib.quote(url)
+		url = "&url="+urllib.quote(url)
+	if len(in_reply_to) != 0:
+		in_reply_to = "&in_reply_to="+in_reply_to
 	if len(via) != 0:
 		via = "&via="+via
-	if len(url) != 0:
-		in_reply_to = "&in_reply_to="+in_reply_to
 	if len(hashtags) != 0:
 		hashtags = "&hashtags="+hashtags
 	if len(related) != 0:
 		related = "&related="+related
 
 	parametros = text+url+via+in_reply_to+hashtags+related
-	print link+parametros
-	return link
+	return link+parametros
 
 # def retweet():
 # 	link = "https://twitter.com/intent/retweet?"

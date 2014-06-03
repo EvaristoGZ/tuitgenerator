@@ -15,7 +15,12 @@ def index():
 @post('/')
 def recibir():
 	text=request.forms.get('text')
-	return template("result.tpl",text=text)
+	url=request.forms.get('url')
+	in_reply_to=request.forms.get('in_reply_to')
+	via=request.forms.get('via')
+	hashtags=request.forms.get('hashtags')
+	related=request.forms.get('related')
+	return template("result.tpl",resultado=tweet(text,url,via,in_reply_to,hashtags,related))
 
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False
