@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import urllib
 
 def tweet():
 	link = "https://twitter.com/intent/tweet?"
