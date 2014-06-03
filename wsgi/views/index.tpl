@@ -1,29 +1,102 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>tuitgenerator - Genera código HTML para tuitear desde tu web</title>
-	<meta name="description" content="">
-</head>
-<body>
-<div id="container">
-<h1>tuitgenerator</h1>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+			body {
+				padding-top: 50px;
+				padding-bottom: 20px;
+			}
+        </style>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">Está utilizando un <strong>navegador web obsoleto</strong>. Por favor, <a href="http://browsehappy.com/">actualice su navegador web</a> para mejorar su experiencia.</p>
+		<![endif]-->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com">Tuitgenerator</a>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="jumbotron">
+	  <div class="container">
+		<h1>Hello, world!</h1>
 	<form id="formulario" action="/" method="post">
-		<ul>
-			<li>
-			<label for="text">Contenido del tuit</label>
-			<input type="text" id="formtext" name="text" required aria-required="true" placeholder="Texto">
-			<input type="text" id="formtext" name="url" aria-required="true" placeholder="URL" pattern="\S{1,}">
-			<input type="text" id="formtext" name="in_reply_to" aria-required="true" placeholder="In reply to" pattern="\S{1,}">
-			<input type="text" id="formtext" name="via" aria-required="true" placeholder="Vía" pattern="\S{1,}">
-			<input type="text" id="formtext" name="hashtags" aria-required="true" placeholder="Hashtags" pattern="\S{1,}">
-			<input type="text" id="formtext" name="related" aria-required="true" placeholder="Relacionados" pattern="\S{1,}">
-			</li>
-			<li>
-				<input value="Enviar" type="submit">
-			</li>
-		</ul>
+		<label for="text">Contenido del tuit</label>
+		<input type="text" id="formtext" name="text" required aria-required="true" placeholder="Texto">
+		<input type="text" id="formtext" name="url" aria-required="true" placeholder="URL" pattern="\S{1,}">
+		<input type="text" id="formtext" name="in_reply_to" aria-required="true" placeholder="In reply to" pattern="\S{1,}">
+		<input type="text" id="formtext" name="via" aria-required="true" placeholder="Vía" pattern="\S{1,}">
+		<input type="text" id="formtext" name="hashtags" aria-required="true" placeholder="Hashtags" pattern="\S{1,}">
+		<input type="text" id="formtext" name="related" aria-required="true" placeholder="Relacionados" pattern="\S{1,}">
+		</li>
+		<input value="Enviar" type="submit">
 	</form>
-</div>
-</body>
+		<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+		</div>
+	</div>
+
+	<div class="container">
+	  <!-- Example row of columns -->
+	  <div class="row">
+		<div class="col-md-6">
+		  <h2>Código HTML</h2>
+		  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		</div>
+		<div class="col-md-6">
+		  <h2>Sobre el proyecto</h2>
+		  <p>¿Para qué sirve?</p>
+		  <p>¿Cómo funciona?</p>
+		  <p>¿Qué es Web Intents?</p>
+		  <p>¿Quién es el autor?</p>
+		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	   </div>
+	  </div>
+
+	  <hr>
+
+	  <footer>
+		<p>&copy; Evaristo GZ 2014</p>
+	  </footer>
+	</div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+		<script src="js/vendor/bootstrap.min.js"></script>
+
+		<script src="js/main.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+	</body>
 </html>
