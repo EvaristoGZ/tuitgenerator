@@ -3,6 +3,22 @@ import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH
 from funciones import tweet
 
+@get('/css/<filename:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='css')
+
+@get('/img/<filename:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='img')
+
+@get('/js/<filename:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='js')
+
+@get('/fonts/<filename:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='fonts')
+
 @route('/hola')
 def hello():
 	return "Hello World! OK"
@@ -14,12 +30,12 @@ def index():
 
 @post('/')
 def recibir():
-	text=request.forms.get('text')
-	url=request.forms.get('url')
-	in_reply_to=request.forms.get('in_reply_to')
-	via=request.forms.get('via')
-	hashtags=request.forms.get('hashtags')
-	related=request.forms.get('related')
+	text = request.forms.get('text')
+	url = request.forms.get('url')
+	in_reply_to = request.forms.get('in_reply_to')
+	via = request.forms.get('via')
+	hashtags = request.forms.get('hashtags')
+	related = request.forms.get('related')
 	return template("result.tpl",resultado=tweet(text,url,via,in_reply_to,hashtags,related))
 
 # This must be added in order to do correct path lookups for the views
