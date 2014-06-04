@@ -45,6 +45,9 @@ if os.environ.has_key('OPENSHIFT_REPO_DIR'):
 if ON_OPENSHIFT:
     TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
                                       'app-root/repo/wsgi/views/'))
+    TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
+                                      'app-root/repo/wsgi/css/'))
+
     
     application=default_app()
 else:
