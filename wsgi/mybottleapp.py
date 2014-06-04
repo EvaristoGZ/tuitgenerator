@@ -3,26 +3,6 @@ import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH
 from funciones import tweet
 
-@route('/css/<filename>')
-def sever_static(filename):
-    return static_file(filename, root='./css')
-
-@get('/css/<filename>:re:.*>')
-def sever_static(filename):
-    return static_file(filename, root='css')
-
-@get('/img/<filename:re:.*>')
-def sever_static(filename):
-    return static_file(filename, root='img')
-
-@get('/js/<filename:re:.*>')
-def sever_static(filename):
-    return static_file(filename, root='js')
-
-@get('/fonts/<filename:re:.*>')
-def sever_static(filename):
-    return static_file(filename, root='fonts')
-
 @route('/')
 def index():
 	return template("index.tpl")
@@ -45,9 +25,6 @@ if os.environ.has_key('OPENSHIFT_REPO_DIR'):
 if ON_OPENSHIFT:
     TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
                                       'app-root/repo/wsgi/views/'))
-    TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
-                                      'app-root/repo/wsgi/css/'))
-
     
     application=default_app()
 else:
