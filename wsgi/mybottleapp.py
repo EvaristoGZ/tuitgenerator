@@ -17,6 +17,10 @@ def recibir():
 	related = request.forms.get('related')
 	return template("result.tpl",resultado=tweet(text,url,via,in_reply_to,hashtags,related))
 
+@error(404)
+def error404:
+	return "ERROR 404: Página no encontrada"
+
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False
 if os.environ.has_key('OPENSHIFT_REPO_DIR'):
