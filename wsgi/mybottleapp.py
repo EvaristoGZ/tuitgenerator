@@ -7,6 +7,10 @@ from funciones import tweet
 def sever_static(filename):
     return static_file(filename, root='./css')
 
+@get('/css/<filename>:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='css')
+
 @get('/img/<filename:re:.*>')
 def sever_static(filename):
     return static_file(filename, root='img')
