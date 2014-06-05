@@ -35,7 +35,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com">Tuitgenerator</a>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com"><img src="/static/img/tuitgenerator-logo.png" alt="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"></a>
 		</div>
 	  </div>
 	</div>
@@ -63,9 +63,8 @@
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
 			</div>
-			<input value="Enviar" type="submit" class="btn btn-primary btn-lg" role="button">
+			<input class="btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
 			</form>
-		<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
 		</div>
 	</div>
 
