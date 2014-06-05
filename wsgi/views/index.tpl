@@ -77,7 +77,7 @@
 	  <div class="row">
 		<div class="col-md-6">
 		  <h2>Código HTML</h2>
-		  <p><code>&lt;a&gt; href="{{link}}" title="Pulsa para tuitear este mensaje">Texto a enlazar&lt;/a&gt;</code></p>
+		  <p><code>&lt;a href="{{link}}" title="Pulsa para tuitear este mensaje"&gt;Texto a enlazar&lt;/a&gt;</code></p>
 		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 		</div>
 		<div class="col-md-6">
