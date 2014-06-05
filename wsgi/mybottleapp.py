@@ -5,8 +5,7 @@ from funciones import tweet
 
 @route('/')
 def index():
-	resultado=""
-	return template("index.tpl")
+	return template("index.tpl",resultado="")
 
 @post('/')
 def recibir():
