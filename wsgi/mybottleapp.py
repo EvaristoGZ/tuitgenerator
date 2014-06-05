@@ -5,7 +5,7 @@ from funciones import tweet
 
 @route('/')
 def index():
-	return template("index.tpl",resultado="")
+	return template("index.tpl",link="")
 
 @post('/')
 def recibir():
@@ -15,7 +15,7 @@ def recibir():
 	via = request.forms.get('via')
 	hashtags = request.forms.get('hashtags')
 	related = request.forms.get('related')
-	return template("index.tpl",resultado=tweet(text,url,via,in_reply_to,hashtags,related))
+	return template("index.tpl",link=tweet(text,url,via,in_reply_to,hashtags,related))
 
 @error(404)
 def error404(error):

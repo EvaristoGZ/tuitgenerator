@@ -65,16 +65,19 @@
 			</div>
 			<input class="btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
 			</form>
+			<div class="col-md-12">
+				<p class="link">{{link}}</p>
+			</div>
 		</div>
 	</div>
-	<p>{{resultado}}</p>
+
 
 	<div class="container">
 	  <!-- Example row of columns -->
 	  <div class="row">
 		<div class="col-md-6">
 		  <h2>Código HTML</h2>
-		  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <p><code><a href="{{link}}" title="Pulsa para tuitear este mensaje">Texto a enlazar</a></code></p>
 		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 		</div>
 		<div class="col-md-6">
