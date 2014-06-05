@@ -18,7 +18,7 @@ def recibir():
 	return template("result.tpl",resultado=tweet(text,url,via,in_reply_to,hashtags,related))
 
 @error(404)
-def error404():
+def error404(error):
 	return "ERROR 404: Página no encontrada"
 
 # This must be added in order to do correct path lookups for the views
