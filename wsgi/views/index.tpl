@@ -67,6 +67,7 @@
 			</form>
 		</div>
 	</div>
+	<p>{{resultado}}</p>
 
 	<div class="container">
 	  <!-- Example row of columns -->
