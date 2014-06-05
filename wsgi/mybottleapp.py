@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH
+from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error
 from funciones import tweet
 
 @route('/')
