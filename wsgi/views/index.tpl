@@ -46,22 +46,22 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
-				<input name="text" id="text" type="text" required aria-required="true" placeholder="Texto">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" placeholder="Texto">
 			</div>
 			<div class="col-md-6">
-				<input name="url" id="url" type="text" aria-required="true" placeholder="URL">
+				<input class="form-control input-lg" name="url" id="url" type="text" aria-required="true" placeholder="URL">
 			</div>
 			<div class="col-md-6">
-				<input name="in_reply_to" id="in_reply_to" type="text" aria-required="true" placeholder="En respuesta a">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" aria-required="true" placeholder="En respuesta a">
 			</div>
 			<div class="col-md-4">
-				<input name="via" id="via" type="text" aria-required="true" placeholder="Vía">
+				<input class="form-control input-lg" name="via" id="via" type="text" aria-required="true" placeholder="Vía">
 			</div>
 			<div class="col-md-4">
-				<input name="hashtags" id="hashtags" type="text" aria-required="true" placeholder="Hashtags">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" aria-required="true" placeholder="Hashtags">
 			</div>
 			<div class="col-md-4">
-				<input name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
+				<input class="form-control input-lg" name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
 			</div>
 			<input value="Enviar" type="submit" class="btn btn-primary btn-lg" role="button">
 			</form>
