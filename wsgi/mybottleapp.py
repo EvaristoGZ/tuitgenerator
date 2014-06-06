@@ -7,9 +7,9 @@ from funciones import tweet
 def index():
 	return template("index.tpl",link="")
 
-@route('/static/<filename>')
+@route('/static/css/<filename>')
 def server_static(filename):
-  return static_file(filename, root='./static')
+  return static_file(filename, root='./static/css')
 
 @post('/')
 def recibir():
