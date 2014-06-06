@@ -35,7 +35,11 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com"><img src="/static/img/tuitgenerator-logo.png" alt="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"></a>
+		  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><img src="/static/img/tuitgenerator-logo.png" alt="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"></a>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/tuit">Tuit</a>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/retuit">Retuit</a>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/favorito">Favorito</a>
+		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/seguir">Seguir</a>
 		</div>
 	  </div>
 	</div>
@@ -63,11 +67,12 @@
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
 			</div>
-			<input class="btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
-			</form>
-			<div class="col-md-12">
+			<input class="generar btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
+			<div id="resultado">
 				<p class="link">{{link}}</p>
 			</div>
+			</form>
+
 		</div>
 	</div>
 
