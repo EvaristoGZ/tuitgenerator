@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error
-from funciones import tweet
 
 #Define rutas para el correcto funcionamiento en localhost
 @route('/static/<filename:path>')
@@ -37,4 +36,12 @@ if ON_OPENSHIFT:
     
     application=default_app()
 else:
-    run(host='localhost', port=8080)
+	import commands
+
+	print "Interfaces disponibles para lanzar el server: "
+	print commands.getoutput("/sbin/ifconfig | egrep -o '^[a-z].......'")
+	intfz = raw_input('Introduce la interfaz a utilizar: ')
+	comand = "/sbin/ifconfig "+intfz+" | egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | egrep -v '*(0|255)$'"
+	iphost = commands.getoutput(comand)
+	print "La IP del server es: ", iphost
+	run(host=iphost, port=8080)
