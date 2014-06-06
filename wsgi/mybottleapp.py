@@ -7,6 +7,10 @@ from funciones import tweet
 def index():
 	return template("index.tpl",link="")
 
+@get('/css/<filename:re:.*>')
+def sever_static(filename):
+    return static_file(filename, root='css')
+
 @post('/')
 def recibir():
 	text = request.forms.get('text')
@@ -17,9 +21,9 @@ def recibir():
 	related = request.forms.get('related')
 	return template("index.tpl",link=tweet(text,url,via,in_reply_to,hashtags,related))
 
-@error(404)
-def error404(error):
-	return "ERROR 404: Página no encontrada"
+# @error(404)
+# def error404(error):
+# 	return "ERROR 404: Página no encontrada"
 
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False
