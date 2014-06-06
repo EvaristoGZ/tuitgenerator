@@ -4,21 +4,9 @@ from bottle import route, run, template, get, post, request, response, redirect,
 from funciones import tweet
 
 #Define rutas para el correcto funcionamiento en localhost
-@route('/static/css/<filename>')
+@route('/static/<filename:path>')
 def server_static(filename):
-  return static_file(filename, root='./static/css')
-
-@route('/static/img/<filename>')
-def server_static(filename):
-  return static_file(filename, root='./static/img')
-
-@route('/static/js/<filename>')
-def server_static(filename):
-  return static_file(filename, root='./static/js')
-
-@route('/static/fonts/<filename>')
-def server_static(filename):
-  return static_file(filename, root='./static/fonts')
+  return static_file(filename, root='./static')
 
 @route('/')
 def index():
