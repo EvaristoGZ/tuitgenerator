@@ -50,22 +50,22 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" placeholder="Texto">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" pattern="\S{1,140}" autocomplete="off" autofocus placeholder="Texto">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="url" id="url" type="text" aria-required="true" placeholder="URL">
+				<input class="form-control input-lg" name="url" id="url" type="url" placeholder="URL">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" aria-required="true" placeholder="En respuesta a">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" pattern="\S{19,19}" placeholder="En respuesta a">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" type="text" aria-required="true" placeholder="Vía">
+				<input class="form-control input-lg" name="via" id="via" type="text" pattern="\S{15,15}" placeholder="Vía">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" aria-required="true" placeholder="Hashtags">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" placeholder="Hashtags">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="related" id="related" type="text" aria-required="true" placeholder="Perfiles relacionados">
+				<input class="form-control input-lg" name="related" id="related" type="text" placeholder="Perfiles relacionados">
 			</div>
 			<input class="generar btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
 			<div id="resultado">
