@@ -50,22 +50,22 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus placeholder="Texto">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus placeholder="Texto: Rellena los campos de texto con el formato especificado">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="url" id="url" type="url" placeholder="URL">
+				<input class="form-control input-lg" name="url" id="url" type="url" placeholder="URL: http://www.google.com">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" pattern="^[0-9]{19,19}" placeholder="En respuesta a">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" pattern="^[A-Za-z0-9_,]{1,40}$" placeholder="Hashtags: Python,Bottle">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" placeholder="Vía">
+				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" placeholder="Vía: tuitgenerator">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" placeholder="Hashtags">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" placeholder="En respuesta a: 476067205483102208">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="related" id="related" type="text" placeholder="Perfiles relacionados">
+				<input class="form-control input-lg" name="related" id="related" type="text" placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
 			<input class="generar btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
 			<div id="resultado">
@@ -84,9 +84,9 @@
 		  <p><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;Texto a enlazar&lt;/a&gt;</code></p>
 		</div>
 		<div class="col-md-4">
-		<h2>Ejemplo de visualización</h2>
+		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=#CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando."</a></p>
+		  <p><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando."</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
 		</div>
