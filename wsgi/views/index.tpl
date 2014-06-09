@@ -50,16 +50,16 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" pattern="\S{1,140}" autocomplete="off" autofocus placeholder="Texto">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus placeholder="Texto">
 			</div>
 			<div class="col-md-6">
 				<input class="form-control input-lg" name="url" id="url" type="url" placeholder="URL">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" pattern="\S{19,19}" placeholder="En respuesta a">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" pattern="^[0-9]{19,19}" placeholder="En respuesta a">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" type="text" pattern="\S{15,15}" placeholder="Vía">
+				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" placeholder="Vía">
 			</div>
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" placeholder="Hashtags">
@@ -72,23 +72,29 @@
 				<p class="link">{{link}}</p>
 			</div>
 			</form>
-
 		</div>
 	</div>
 
 
 	<div class="container">
-	  <!-- Example row of columns -->
 	  <div class="row">
-		<div class="col-md-6">
+		<div class="col-md-4">
 		  <h2>Código HTML</h2>
-		  <p><code>&lt;a href="{{link}}" title="Pulsa para tuitear este mensaje"&gt;Texto a enlazar&lt;/a&gt;</code></p>
-		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
+		  <p><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;Texto a enlazar&lt;/a&gt;</code></p>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-4">
+		<h2>Ejemplo de visualización</h2>
+		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
+		  <p><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=#CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando."</a></p>
+		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
+		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
+		</div>
+		<div class="col-md-4">
 		  <h2>Sobre el proyecto</h2>
 		  <p>¿Para qué sirve?</p>
 		  <p>¿Cómo funciona?</p>
+		  <p>¿Cómo personalizarlo?</p>
 		  <p>¿Qué es Web Intents?</p>
 		  <p>¿Quién es el autor?</p>
 		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>

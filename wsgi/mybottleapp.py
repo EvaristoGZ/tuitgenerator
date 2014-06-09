@@ -10,7 +10,7 @@ def server_static(filename):
 
 @route('/')
 def index():
-	return template("index.tpl",link="")
+	return template("index.tpl",link="Aquí la URL")
 
 @post('/')
 def recibir():
