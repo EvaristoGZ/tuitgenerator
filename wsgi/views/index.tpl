@@ -20,14 +20,16 @@
 		<![endif]-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
-		<div class="navbar-header">
+	  	<div class="menu izq">
+	  	  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a>
+	  	</div>
+		<div class="navbar-header der">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Navegación</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/tuit">Tuit</a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/retuit">Retuit</a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/favorito">Favorito</a>
