@@ -35,7 +35,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><img src="/static/img/tuitgenerator-logo.png" alt="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"></a>
+		  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/tuit">Tuit</a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/retuit">Retuit</a>
 		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/favorito">Favorito</a>
