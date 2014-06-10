@@ -9,11 +9,9 @@
 		<title>tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="static/css/main.css">
-
 		<script src="static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
@@ -24,7 +22,7 @@
 	  <div class="container">
 		<div class="navbar-header">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
+			<span class="sr-only">Navegación</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -60,7 +58,7 @@
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="related" id="related" type="text" placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
-			<input class="generar btn btn-primary btn-lg" value="Enviar" type="submit" role="button">
+			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="resultado">
 				<p class="link">{{link}}</p>
 			</div>
@@ -96,7 +94,7 @@
 	  <hr>
 
 	  <footer>
-		<div id="copyright">&copy; 2014 Evaristo GZ</div><div id="legal">Aviso Legal y Política de Protección de Datos</div>
+		<div id="copyright">&copy; 2014 Evaristo GZ</div><div id="legal"><a href="#">Aviso Legal y Política de Protección de Datos</a></div>
 	  </footer>
 	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
