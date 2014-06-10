@@ -11,12 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
-		<style>
-			body {
-				padding-top: 50px;
-				padding-bottom: 20px;
-			}
-		</style>
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="static/css/main.css">
 
@@ -44,7 +38,6 @@
 	  </div>
 	</div>
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron">
 	  <div class="container">
 		<h1>Hello, world!</h1>
@@ -75,7 +68,6 @@
 		</div>
 	</div>
 
-
 	<div class="container">
 	  <div class="row">
 		<div class="col-md-4">
@@ -104,7 +96,7 @@
 	  <hr>
 
 	  <footer>
-		<p>&copy; Evaristo GZ 2014</p>
+		<div id="copyright">&copy; 2014 Evaristo GZ</div><div id="legal">Aviso Legal y Política de Protección de Datos</div>
 	  </footer>
 	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>

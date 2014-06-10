@@ -60,12 +60,14 @@
 .link{text-align:center;background:#e1e1e1;border-radius:6px;padding:8px;word-wrap:break-word}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png);float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .logotipo span{display:none}
+.generar{margin:5px 15px;float:left}
+#copyright{float:left}
+#legal{float:right}
+#resultado{margin:5px 15px;width:87.2%;float:left;}
 @media (max-width:768px){
 	body{padding-top:0}
-	.navbar-fixed-top, .navbar-fixed-bottom{position:static}
-	.navbar{margin-bottom:20px}
+	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
+	.navbar{margin-bottom:0}
 	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png);float:left;margin:10px 10px 10px 0;width:200px;height:29px}
 	.jumbotron{padding:0}
 }
-.generar{margin:5px 15px;float:left}
-#resultado{margin:5px 15px;width:87.2%;float:left;}
