@@ -20,9 +20,7 @@
 		<![endif]-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
-	  	<div class="menu izq">
-	  	  <a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a>
-	  	</div>
+	  	<div class="menu izq"><a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a></div>
 		<div class="navbar-header der">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Navegación</span>
@@ -43,22 +41,22 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" action="/" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus placeholder="Texto: Rellena los campos de texto con el formato especificado">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No exceda 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="url" id="url" type="url" placeholder="URL: http://www.google.com">
+				<input class="form-control input-lg" name="url" id="url" type="url" title="Incluya http://" placeholder="URL: http://www.google.com">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" pattern="^[A-Za-z0-9_,]{1,40}$" placeholder="Hashtags: Python,Bottle">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" pattern="^[A-Za-z0-9_,]{1,40}$" title="No incluya #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" placeholder="Vía: tuitgenerator">
+				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" title="No incluya @." placeholder="Vía: tuitgenerator">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" placeholder="En respuesta a: 476067205483102208">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" title="Copie el ID mostrado al final de la URL del tweet." placeholder="En respuesta a: 476067205483102208">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="related" id="related" type="text" placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
+				<input class="form-control input-lg" name="related" id="related" type="text" title="No incluya @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
 			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="resultado">
@@ -89,14 +87,15 @@
 		  <p>¿Cómo personalizarlo?</p>
 		  <p>¿Qué es Web Intents?</p>
 		  <p>¿Quién es el autor?</p>
-		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		  <p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
 	   </div>
 	  </div>
 
 	  <hr>
 
 	  <footer>
-		<div id="copyright">&copy; 2014 Evaristo GZ</div><div id="legal"><a href="#">Aviso Legal y Política de Protección de Datos</a></div>
+		<div id="copyright">&copy; 2014 Evaristo GZ</div>
+		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
 	  </footer>
 	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
