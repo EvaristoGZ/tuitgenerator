@@ -4,11 +4,16 @@ import urllib
 def tweet(text,url,via,in_reply_to,hashtags,related):
 	link = "https://twitter.com/intent/tweet?"
 	if len(text) != 0:
-		text_link = "&text="+urllib.quote(text)
+		texto = text
+		text = "&text="+urllib.quote(text)
 	if len(url) != 0:
 		url = "&url="+urllib.quote(url)
 	if len(in_reply_to) != 0:
-		in_reply_to = "&in_reply_to="+in_reply_to
+		if 'status' in in_reply_to:
+			IDtweet = in_reply_to.split("/")
+			in_reply_to = "&in_reply_to="+IDtweet[5]
+		else:
+			in_reply_to = "&in_reply_to="+in_reply_to
 	if len(via) != 0:
 		via = "&via="+via
 	if len(hashtags) != 0:
@@ -16,8 +21,8 @@ def tweet(text,url,via,in_reply_to,hashtags,related):
 	if len(related) != 0:
 		related = "&related="+related
 
-	parametros = text_link+url+via+in_reply_to+hashtags+related
-	return link+parametros, text
+	parametros = text+url+via+in_reply_to+hashtags+related
+	return link+parametros, texto
 
 def retweet(tweet_id,):
 	link = "https://twitter.com/intent/retweet?"
