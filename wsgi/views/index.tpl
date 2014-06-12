@@ -20,7 +20,7 @@
 		<![endif]-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
-	  	<div class="menu izq"><a class="logotipo" href="http://tuitgenerator.evaristogz.com"><span>tuitgenerator</span></a></div>
+	  	<div class="menu izq"><a class="logotipo" href="http://tuitgenerator-evgarciaz.rhcloud.com"><span>tuitgenerator</span></a></div>
 		<div class="navbar-header der">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Navegación</span>
@@ -28,10 +28,10 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/tuit">Tuit</a>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/retuit">Retuit</a>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/favorito">Favorito</a>
-		  <a class="navbar-brand" href="http://tuitgenerator.evaristogz.com/seguir">Seguir</a>
+		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/tuit">Tuit</a>
+		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/retuit">Retuit</a>
+		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/favorito">Favorito</a>
+		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/seguir">Seguir</a>
 		</div>
 	  </div>
 	</div>
@@ -71,7 +71,7 @@
 		<div class="col-md-4">
 		  <h2>Código HTML</h2>
 		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
-		  <p><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;Texto a enlazar&lt;/a&gt;</code></p>
+		  <p><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{text}}&lt;/a&gt;</code></p>
 		</div>
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>

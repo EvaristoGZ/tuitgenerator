@@ -4,7 +4,7 @@ import urllib
 def tweet(text,url,via,in_reply_to,hashtags,related):
 	link = "https://twitter.com/intent/tweet?"
 	if len(text) != 0:
-		text = "&text="+urllib.quote(text)
+		text_link = "&text="+urllib.quote(text)
 	if len(url) != 0:
 		url = "&url="+urllib.quote(url)
 	if len(in_reply_to) != 0:
@@ -16,8 +16,8 @@ def tweet(text,url,via,in_reply_to,hashtags,related):
 	if len(related) != 0:
 		related = "&related="+related
 
-	parametros = text+url+via+in_reply_to+hashtags+related
-	return link+parametros
+	parametros = text_link+url+via+in_reply_to+hashtags+related
+	return link+parametros, text
 
 def retweet(tweet_id,):
 	link = "https://twitter.com/intent/retweet?"

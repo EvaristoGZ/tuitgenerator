@@ -10,7 +10,8 @@ def server_static(filename):
 
 @route('/')
 def index():
-	return template("index.tpl",link="Aquí la URL")
+	text=""
+	return template("index.tpl",link="Aquí la URL",text="Aquí el texto")
 
 @post('/')
 def recibir():
@@ -20,7 +21,8 @@ def recibir():
 	via = request.forms.get('via')
 	hashtags = request.forms.get('hashtags')
 	related = request.forms.get('related')
-	return template("index.tpl",link=tweet(text,url,via,in_reply_to,hashtags,related))
+	link, text = tweet(text,url,via,in_reply_to,hashtags,related)
+	return template("index.tpl",link=link,text=text)
 
 @error(404)
 def error404(error):
