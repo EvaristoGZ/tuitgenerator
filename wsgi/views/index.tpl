@@ -20,7 +20,7 @@
 		<![endif]-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
-	  	<div class="menu izq"><a class="logotipo" href="http://tuitgenerator-evgarciaz.rhcloud.com"><span>tuitgenerator</span></a></div>
+	  	<div class="menu izq"><a class="logotipo" href="/"><span>tuitgenerator</span></a></div>
 		<div class="navbar-header der">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Navegación</span>
@@ -28,10 +28,10 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/tuit">Tuit</a>
-		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/retuit">Retuit</a>
-		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/favorito">Favorito</a>
-		  <a class="navbar-brand" href="http://tuitgenerator-evgarciaz.rhcloud.com/seguir">Seguir</a>
+		  <a class="navbar-brand" href="tuit">Tuit</a>
+		  <a class="navbar-brand" href="retuit">Retuit</a>
+		  <a class="navbar-brand" href="favorito">Favorito</a>
+		  <a class="navbar-brand" href="seguir">Seguir</a>
 		</div>
 	  </div>
 	</div>
