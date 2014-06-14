@@ -57,30 +57,20 @@
 .panel-danger>.panel-heading{background-image:-webkit-linear-gradient(top,#f2dede 0,#ebcccc 100%);background-image:linear-gradient(to bottom,#f2dede 0,#ebcccc 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffebcccc', GradientType=0)}
 .well{background-image:-webkit-linear-gradient(top,#e8e8e8 0,#f5f5f5 100%);background-image:linear-gradient(to bottom,#e8e8e8 0,#f5f5f5 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);border-color:#dcdcdc;-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.1)}
 /* Personalizado */
+.clear{clear:both;height:0;line-height:0;display:block;float:none;padding:0;margin:0;border:none}
 a:hover{text-decoration:none;}
 .izq{float:left;}
 .der{float:right;}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png);float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .logotipo span{display:none}
 .generar{margin:5px 15px;float:left}
+#link{margin:5px 15px;width:85.9%;float:left}
 .link{text-align:center;background:#e1e1e1;border-radius:6px;padding:8px;word-wrap:break-word}
+#copiar{float:right}
+#code{background:#F9F2F4;border-radius:3px}
 #copyright{float:left}
 #legal{float:right}
 #legal a{color:rgb(51, 51, 51)}
-#resultado{margin:5px 15px;width:85.9%;float:left}
-.footer:hover{
-	background:#F0F;
-}
-.clear{
-	clear:both;
-	height:0;
-	line-height:0;
-	display:block;
-	float:none;
-	padding:0;
-	margin:0;
-	border:none;
-}
 @media (max-width:768px){
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}

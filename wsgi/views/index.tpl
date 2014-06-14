@@ -60,9 +60,8 @@
 				<input class="form-control input-lg" name="related" id="related" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
 			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
-			<div id="resultado">
-				<p class="link">{{link}}</p>
-				<a href="#" id="copiar">Copiar link</a>
+			<div id="link">
+				<p class="link">{{link}}<a href="#" id="copiar">Copiar link</a></p>
 			</div>
 			</form>
 		</div>
@@ -73,7 +72,7 @@
 		<div class="col-md-4">
 		  <h2>Código HTML</h2>
 		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
-		  <p><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto}}&lt;/a&gt;</code></p>
+		  <div id="code"><code>&lt;a href="{{link}}" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto}}&lt;/a&gt;</code></div>
 		</div>
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
