@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="static/css/main.css">
 		<script src="static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -61,6 +62,7 @@
 			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="resultado">
 				<p class="link">{{link}}</p>
+				<a href="#" id="copiar">Copiar link</a>
 			</div>
 			</form>
 		</div>
@@ -102,8 +104,24 @@
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
 		<script src="static/js/vendor/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		var client = new ZeroClipboard( $("a#copiar") );
 
-		<script src="static/js/main.js"></script>
+		  client.on( 'ready', function(event) {
+		// console.log( 'movie is loaded' );
+
+			client.on( "copy", function (event) {
+				var clipboard = event.clipboardData;
+				clipboard.setData( "text/plain", "COPIAO" );
+				clipboard.setData( "text/html", "<b>Copy me!</b>" );
+				clipboard.setData( "application/rtf", "{\\rtf1\\ansi\n{\\b Copy me!}}" );
+			});
+
+			client.on( 'aftercopy', function(event) {
+				console.log('Copied text to clipboard: ' + event.data['text/plain']);
+			} );
+		} );
+		</script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
