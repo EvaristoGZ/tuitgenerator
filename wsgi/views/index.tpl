@@ -112,7 +112,7 @@
 
 			client.on( "copy", function (event) {
 				var clipboard = event.clipboardData;
-				clipboard.setData( "text/plain", "COPIAO" );
+				clipboard.setData( "text/plain", "{{link}}" );
 				clipboard.setData( "text/html", "<b>Copy me!</b>" );
 				clipboard.setData( "application/rtf", "{\\rtf1\\ansi\n{\\b Copy me!}}" );
 			});
