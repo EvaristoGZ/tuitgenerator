@@ -67,8 +67,7 @@ a:hover{text-decoration:none;}
 #link{margin:5px 15px;width:85.9%;float:left}
 .link{text-align:center;background:#e1e1e1;border-radius:6px;padding:8px;word-wrap:break-word}
 #copiar-link{background:url(/static/img/clipboard.png) no-repeat scroll left top transparent;display:block;float:right;width:25px;height:32px}
-#copiar.zeroclipboard-is-hover{background-position:bottom;transition:all .5s ease-in-out}
-#copiar:hover{background-position:bottom;transition:all .5s ease-in-out}
+#copiar-link:hover{background-position:bottom;transition:all .5s ease-in-out}
 #code{background:#F9F2F4;border-radius:3px}
 #copyright{float:left}
 #legal{float:right}
