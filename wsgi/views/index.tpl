@@ -61,7 +61,7 @@
 			</div>
 			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="link">
-				<p class="link">{{link}}<a href="#" id="copiar">Copiar link</a></p>
+				<p class="link">{{link}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
 			</div>
 			</form>
 		</div>
@@ -104,7 +104,7 @@
 
 		<script src="static/js/vendor/bootstrap.min.js"></script>
 		<script type="text/javascript">
-		var client = new ZeroClipboard( $("a#copiar") );
+		var client = new ZeroClipboard( $("a#copiar-link") );
 
 		  client.on( 'ready', function(event) {
 		// console.log( 'movie is loaded' );
@@ -117,7 +117,7 @@
 			});
 
 			client.on( 'aftercopy', function(event) {
-				console.log('Copied text to clipboard: ' + event.data['text/plain']);
+				console.log('Texto copiado al portapapeles: ' + event.data['text/plain']);
 			} );
 		} );
 		</script>
