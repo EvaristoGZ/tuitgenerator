@@ -21,18 +21,22 @@
 		<![endif]-->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
-	  	<div class="menu izq"><a class="logotipo" href="/"><span>tuitgenerator</span></a></div>
-		<div class="navbar-header der">
+		<div class="navbar-header">
 		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Navegación</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="tuit">Tuit</a>
-		  <a class="navbar-brand" href="retuit">Retuit</a>
-		  <a class="navbar-brand" href="favorito">Favorito</a>
-		  <a class="navbar-brand" href="seguir">Seguir</a>
+		  <a class="logotipo" href="/"><span>tuitgenerator</span></a>
+		</div>
+		<div class="navbar-collapse navbar-responsive-collapse collapse">
+		  <ul class="nav navbar-nav pull-right">
+			<li><a href="tuit" title="Generar un tuit">Tuit</a></li>
+			<li><a href="retuit" title="Generar un retuit">Retuit</a></li>
+			<li><a href="favorito" title="Marcar un tuit como favorito">Favorito</a></li>
+			<li><a href="seguir" title="Seguir un perfil de Twitter">Seguir</a></li>
+		  </ul>
 		</div>
 	  </div>
 	</div>
@@ -59,11 +63,11 @@
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="related" id="related" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
-			<input class="generar btn btn-primary btn-lg" value="Generar" type="submit" role="button">
+			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="link">
 				<p class="link">{{link}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
-				%link = '{{link}}'
-				%if link is 'Aquí la URL':
+				%link = "true"
+				%if link == 'true':
 					<p>NONE</p>
 				%end
 			</div>
