@@ -46,7 +46,7 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado" value="{{link}}">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado">
 			</div>
 			<div class="col-md-6">
 				<input class="form-control input-lg" name="url" id="url" type="url" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
