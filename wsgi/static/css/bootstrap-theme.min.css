@@ -62,7 +62,6 @@ a:hover{text-decoration:none}
 .izq{float:left}
 .der{float:right}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png) no-repeat;float:left;margin:10px 10px 10px 0;width:348px;height:50px}
-.logotipo span,#copiar-link span{display:none}
 .navbar-nav li{font-family:BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;float:left;font-size:20px;line-height:0;text-align:center}
 .navbar-nav li:hover,.navbar-nav:focus{text-decoration:none;background:#00A7FF !important}
 #generar{margin:5px 15px;float:left}
@@ -75,15 +74,17 @@ a:hover{text-decoration:none}
 #menu-informacion li{margin:0 0 10px}
 #menu-informacion li a{color:#333}
 #menu-informacion li a:hover{color:#00A7FF}
-#copyright{float:left}
-#legal{float:right}
-#legal a{color:rgb(51, 51, 51)}
+footer{opacity:.5;transition:all .4s ease-in-out}
+footer:hover{opacity:1}
+#evaristo-gz{background:url(/static/img/Evaristo-GZ.png) no-repeat;width:223px;height:38px;float:left}
+#legal{float:right;margin:8px 0}
+#legal a{color:#4b4b4b}
+.logotipo span,#copiar-link span,#evaristo-gz span{display:none}
 @media (max-width:768px){
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
 	.navbar{margin-bottom:0}
 	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.jumbotron{padding:0}
-	#resultado{width:100%}
 	#copiar-link{display:none}
 }

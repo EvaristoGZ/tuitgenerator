@@ -44,9 +44,9 @@
 	<div class="jumbotron">
 	  <div class="container">
 		<h1>Hello, world!</h1>
-			<form id="formulario" action="/" method="post">
+			<form id="formulario" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado">
+				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado" value="{{link}}">
 			</div>
 			<div class="col-md-6">
 				<input class="form-control input-lg" name="url" id="url" type="url" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
@@ -101,7 +101,7 @@
 	  <hr>
 
 	  <footer class="footer">
-		<div id="copyright">&copy; 2014 Evaristo GZ</div>
+		<a href="http://www.EvaristoGZ.com" id="evaristo-gz" target="_blank"><span>Evaristo GZ</span></a>
 		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
 	  	  <div class="clear"></div>
 	  </footer>
