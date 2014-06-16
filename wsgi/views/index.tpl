@@ -91,11 +91,13 @@
 		</div>
 		<div class="col-md-4">
 		  <h2>Sobre el proyecto</h2>
-		  <p>¿Para qué sirve?</p>
-		  <p>¿Cómo funciona?</p>
-		  <p>¿Cómo personalizarlo?</p>
-		  <p>¿Qué es Web Intents?</p>
-		  <p>¿Quién es el autor?</p>
+		  <ul id="menu-informacion">
+			  <li><a href="#">¿Para qué sirve?</a></li>
+			  <li><a href="#">¿Cómo funciona?</a></li>
+			  <li><a href="#">¿Cómo personalizarlo?</a></li>
+			  <li><a href="#">¿Qué es Web Intents?</a></li>
+			  <li><a href="#">¿Quién es el autor?</a></li>
+		   </ul>
 		  <p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
 	   </div>
 	  </div>

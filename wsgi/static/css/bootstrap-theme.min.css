@@ -71,6 +71,8 @@ a:hover{text-decoration:none;}
 #copiar-link{background:url(/static/img/clipboard.png) no-repeat scroll left top transparent;display:block;float:right;width:25px;height:32px}
 #copiar-link:hover{background-position:bottom;transition:all .5s ease-in-out}
 #code{background:#F9F2F4;border-radius:3px}
+#menu-informacion{list-style:none;padding:0}
+#menu-informacion li{margin:0 0 10px}
 #copyright{float:left}
 #legal{float:right}
 #legal a{color:rgb(51, 51, 51)}
@@ -78,7 +80,7 @@ a:hover{text-decoration:none;}
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
 	.navbar{margin-bottom:0}
-	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 0;width:220px;height:29px}
+	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.jumbotron{padding:0}
 	#resultado{width:100%}
 }
