@@ -87,4 +87,6 @@ footer:hover{opacity:1}
 	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.jumbotron{padding:0}
 	#copiar-link{display:none}
+	#evaristo-gz{float:none;display:block;margin:0 auto;}
+	#legal{width:100%;text-align:center}
 }
