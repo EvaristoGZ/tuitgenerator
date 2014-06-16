@@ -66,10 +66,6 @@
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div id="link">
 				<p class="link">{{link}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
-				%link = "true"
-				%if link == 'true':
-					<p>NONE</p>
-				%end
 			</div>
 			</form>
 		</div>
