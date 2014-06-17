@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error
+from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, SimpleTemplate, BaseTemplate
 from funciones import tweet
 
 #Define rutas para el correcto funcionamiento en localhost
@@ -10,8 +10,7 @@ def server_static(filename):
 
 @route('/')
 def index():
-	texto=""
-	return template("index.tpl",link="Aquí la URL",texto="Aquí el texto")
+	return template("index.tpl",link="",texto="")
 
 @post('/')
 def recibir():
@@ -24,7 +23,7 @@ def recibir():
 	link, texto = tweet(text,url,via,in_reply_to,hashtags,related)
 	return template("index.tpl",link=link,texto=texto)
 
-@route('/sobre-el-proyecto')
+@route('sobre-el-proyecto')
 def sobreelproyecto():
 	return template("sobre-el-proyecto.tpl")
 
