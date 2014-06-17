@@ -24,6 +24,10 @@ def recibir():
 	link, texto = tweet(text,url,via,in_reply_to,hashtags,related)
 	return template("index.tpl",link=link,texto=texto)
 
+@route('/sobre-el-proyecto')
+def sobreelproyecto():
+	return template("sobre-el-proyecto.tpl")
+
 @error(404)
 def error404(error):
 	return "ERROR 404: Página no encontrada"

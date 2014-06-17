@@ -62,7 +62,7 @@
 				<input class="form-control input-lg" name="related" id="related" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
-			<div id="link">
+			<div class="col-md-10 der">
 				<p class="link">{{link}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
 			</div>
 			</form>
@@ -86,11 +86,11 @@
 		<div class="col-md-4">
 		  <h2>Sobre el proyecto</h2>
 		  <ul id="menu-informacion">
-			  <li><a href="#">¿Para qué sirve?</a></li>
-			  <li><a href="#">¿Cómo funciona?</a></li>
-			  <li><a href="#">¿Cómo personalizarlo?</a></li>
-			  <li><a href="#">¿Qué es Web Intents?</a></li>
-			  <li><a href="#">¿Quién es el autor?</a></li>
+			  <li><a href="sobre-el-proyecto#para-que-sirve">¿Para qué sirve?</a></li>
+			  <li><a href="sobre-el-proyecto#como-funciona">¿Cómo funciona?</a></li>
+			  <li><a href="sobre-el-proyecto#como-personalizarlo">¿Cómo personalizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#que-es-web-intents">¿Qué es Web Intents?</a></li>
+			  <li><a href="sobre-el-proyecto#quien-es-el-autor">¿Quién es el autor?</a></li>
 		   </ul>
 		  <p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
 	   </div>
@@ -101,7 +101,7 @@
 	  <footer class="footer">
 		<a href="http://www.EvaristoGZ.com" id="evaristo-gz" target="_blank"><span>Evaristo GZ</span></a>
 		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
-	  	  <div class="clear"></div>
+	  	<div class="clear"></div>
 	  </footer>
 	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>

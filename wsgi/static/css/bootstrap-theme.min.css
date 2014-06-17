@@ -3,7 +3,7 @@
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@font-face {font-family:'BebasNeue';src:url('../fonts/BebasNeue-webfont.eot');src:url('../fonts/BebasNeue-webfont.eot?#iefix')format('embedded-opentype'),url('../fonts/BebasNeue-webfont.woff') format('woff'),url('../fonts/BebasNeue-webfont.ttf')format('truetype'),url('../fonts/BebasNeue-webfont.svg#bebas_neueregular')format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'BebasNeue';src:url('../fonts/BebasNeue-webfont.eot');src:url('../fonts/BebasNeue-webfont.eot?#iefix')format('embedded-opentype'),url('../fonts/BebasNeue-webfont.woff') format('woff'),url('../fonts/BebasNeue-webfont.ttf')format('truetype'),url('../fonts/BebasNeue-webfont.svg#bebas_neueregular')format('svg');font-weight:normal;font-style:normal}
 .btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger{text-shadow:0 -1px 0 rgba(0,0,0,.2);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075)}
 .btn-default:active,.btn-primary:active,.btn-success:active,.btn-info:active,.btn-warning:active,.btn-danger:active,.btn-default.active,.btn-primary.active,.btn-success.active,.btn-info.active,.btn-warning.active,.btn-danger.active{-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
 .btn:active,.btn.active{background-image:none}
@@ -56,16 +56,20 @@ a:hover{text-decoration:none}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png) no-repeat;float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .navbar-nav li{font-family:BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;float:left;font-size:20px;line-height:0;text-align:center}
 .navbar-nav li:hover,.navbar-nav:focus{text-decoration:none;background:#00A7FF !important}
+.container>h1{text-align:center}
 #generar{margin:5px 15px;float:left}
 #link{margin:5px 15px;width:85.9%;float:left}
 .link{text-align:center;background:#e1e1e1;border-radius:6px;padding:8px;word-wrap:break-word}
 #copiar-link{background:url(/static/img/clipboard.png) no-repeat scroll left top transparent;display:block;float:right;width:25px;height:32px}
 #copiar-link:hover{background-position:bottom;transition:all .5s ease-in-out}
-#code{background:#F9F2F4;border-radius:3px}
+#code{background:#F9F2F4;border-radius:3px;margin:0 0 15px}
 #menu-informacion{list-style:none;padding:0}
 #menu-informacion li{margin:0 0 10px}
 #menu-informacion li a{color:#333}
 #menu-informacion li a:hover{color:#00A7FF}
+#sobre-el-proyecto h1{border-bottom:3px solid #00A7FF;margin:25px 0 15px 0}
+#sobre-el-proyecto h1 a{color:#333}
+#sobre-el-proyecto h1 a:hover{color:#00A7FF}
 footer{opacity:.5;transition:all .4s ease-in-out}
 footer:hover{opacity:1}
 #evaristo-gz{background:url(/static/img/Evaristo-GZ.png) no-repeat;width:223px;height:38px;float:left}
@@ -76,10 +80,10 @@ footer:hover{opacity:1}
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
 	.navbar{margin-bottom:0}
-	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) tno-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
+	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.jumbotron{padding:0}
 	#copiar-link{display:none}
-	#footer{opacity:1}
+	footer{opacity:1}
 	#evaristo-gz{float:none;display:block;margin:0 auto}
 	#legal{width:100%;text-align:center}
 }
