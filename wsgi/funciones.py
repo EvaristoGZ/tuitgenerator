@@ -27,7 +27,11 @@ def tweet(text,url,via,in_reply_to,hashtags,related):
 def retweet(tweet_id,):
 	link = "https://twitter.com/intent/retweet?"
 	if len(tweet_id) != 0:
-		tweet_id = "&tweet_id="+tweet_id
+		if 'status' in in_reply_to:
+			IDtweet = in_reply_to.split("/")
+			tweet_id = "&tweet_id="+IDtweet[5]
+		else:
+			tweet_id = "&tweet_id="+tweet_id
 	if len(related) != 0:
 		related = "&related="+related
 
@@ -37,7 +41,11 @@ def retweet(tweet_id,):
 def favorite():
 	link = "https://twitter.com/intent/favorite?"
 	if len(tweet_id) != 0:
-		tweet_id = "&tweet_id="+tweet_id
+		if 'status' in in_reply_to:
+			IDtweet = in_reply_to.split("/")
+			tweet_id = "&tweet_id="+IDtweet[5]
+		else:
+			tweet_id = "&tweet_id="+tweet_id
 	if len(related) != 0:
 		related = "&related="+related
 
