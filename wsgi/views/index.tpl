@@ -50,16 +50,16 @@
 				<input class="form-control input-lg" name="url" id="url" type="url" value="{{url}}" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" value="{{hashtags}}" type="text" title="No debe incluir #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" value="{{hashtags}}" type="text" title="Puede incluir #. En caso de ser varios, separados por espacios." placeholder="Hashtags: #Python #Bottle">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" value="{{via}}" type="text" pattern="*{1,16}$" title="No debe incluir @." placeholder="Vía: tuitgenerator">
+				<input class="form-control input-lg" name="via" id="via" value="{{via}}" type="text" pattern="\S{1,16}$" title="Puede incluir @." placeholder="Vía: @tuitgenerator">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" value="{{in_reply_to}}" type="text" title="Debe ser el ID mostrado al final de la URL del tweet." placeholder="En respuesta a: 476067205483102208">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" value="{{in_reply_to}}" type="text" title="Puede introducir el ID (mostrado al final de la URL del tweet)." placeholder="En respuesta a: 476067205483102208">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="related" id="related" value="{{related}}" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
+				<input class="form-control input-lg" name="related" id="related" value="{{related}}" type="text" title="Puede incluir @. En caso de ser varios sepárelos por espacios." placeholder="Perfiles relacionados: @EvaristoGZ @tuitgenerator">
 			</div>
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div class="col-md-10 der">
