@@ -15,10 +15,16 @@ def tweet(text,url,via,in_reply_to,hashtags,related):
 		else:
 			in_reply_to = "&in_reply_to="+in_reply_to
 	if len(via) != 0:
+		via = via.replace('@','')
 		via = "&via="+via
+
 	if len(hashtags) != 0:
+		hashtags = hashtags.replace('#','')
+		hashtags = hashtags.replace(' ',',')
 		hashtags = "&hashtags="+hashtags
 	if len(related) != 0:
+		related = related.replace('@','')
+		related = related.replace(' ',',')
 		related = "&related="+related
 
 	parametros = text+url+via+in_reply_to+hashtags+related
@@ -33,6 +39,8 @@ def retweet(tweet_id,):
 		else:
 			tweet_id = "&tweet_id="+tweet_id
 	if len(related) != 0:
+		related = related.replace('@','')
+		related = related.replace(' ',',')
 		related = "&related="+related
 
 	parametros = tweet_id+related
@@ -47,6 +55,8 @@ def favorite():
 		else:
 			tweet_id = "&tweet_id="+tweet_id
 	if len(related) != 0:
+		related = related.replace('@','')
+		related = related.replace(' ',',')
 		related = "&related="+related
 
 	parametros = tweet_id+related
@@ -55,6 +65,7 @@ def favorite():
 def user():
 	link = "https://twitter.com/intent/user?"
 	if len(screen_name) != 0:
+		screen_name = screen_name.replace('@','')
 		screen_name = "&screen_name="+screen_name
 
 	return link+screen_name
