@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, SimpleTemplate, BaseTemplate
-from funciones import tweet
+from funciones import tweet, retweet, favorite, user
 
 #Define rutas para el correcto funcionamiento en localhost
 @route('/static/<filename:path>')
@@ -13,7 +13,7 @@ def index():
 	return template("index.tpl",url="",in_reply_to="",via="",hashtags="",related="",link="",texto="")
 
 @post('/')
-def recibir():
+def tuit_post():
 	text = request.forms.get('text')
 	url = request.forms.get('url')
 	in_reply_to = request.forms.get('in_reply_to')
@@ -25,15 +25,38 @@ def recibir():
 
 @route('/retuit')
 def retuit():
-	return template("retuit.tpl",link="",texto="")
+	return template("retuit.tpl",tweet_id="",related="",link="",texto="")
+
+@post('/retuit')
+def retuit_post():
+	text = request.forms.get('text')
+	tweet_id = request.forms.get('tweet_id')
+	related = request.forms.get('related')
+	link, texto = retweet(text,tweet_id,related)
+	return template("retuit.tpl",tweet_id=tweet_id,related=related,link=link,texto=texto)
 
 @route('/favorito')
 def favorito():
-	return template("favorito.tpl",link="",texto="")
+	return template("favorito.tpl",tweet_id="",related="",link="",texto="")
 
-@route('/seguir')
-def seguir():
-	return template("seguir.tpl",link="",texto="")
+@post('/favorito')
+def favorito_post():
+	text = request.forms.get('text')
+	tweet_id = request.forms.get('tweet_id')
+	related = request.forms.get('related')
+	link, texto = favorite(text,tweet_id,related)
+	return template("favorito.tpl",tweet_id=tweet_id,related=related,link=link,texto=texto)
+
+@route('/usuario')
+def usuario():
+	return template("usuario.tpl",screen_name="",link="",texto="")
+
+@post('/usuario')
+def usuario_post():
+	text = request.forms.get('text')
+	screen_name = request.forms.get('screen_name')
+	link, texto = user(text,screen_name)
+	return template("usuario.tpl",screen_name=screen_name,link=link,texto=texto)
 
 @route('/sobre-el-proyecto')
 def sobreelproyecto():
