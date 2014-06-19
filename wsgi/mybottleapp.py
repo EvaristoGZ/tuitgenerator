@@ -23,9 +23,25 @@ def recibir():
 	link, texto = tweet(text,url,via,in_reply_to,hashtags,related)
 	return template("index.tpl",link=link,texto=texto)
 
-@route('sobre-el-proyecto')
+@route('/retuit')
+def retuit():
+	return template("retuit.tpl",link="",texto="")
+
+@route('/favorito')
+def favorito():
+	return template("favorito.tpl",link="",texto="")
+
+@route('/seguir')
+def seguir():
+	return template("seguir.tpl",link="",texto="")
+
+@route('/sobre-el-proyecto')
 def sobreelproyecto():
 	return template("sobre-el-proyecto.tpl")
+
+@route('/aviso-legal')
+def avisolegal():
+	return template("aviso-legal.tpl")
 
 @error(404)
 def error404(error):
