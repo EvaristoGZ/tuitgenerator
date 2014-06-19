@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, SimpleTemplate, BaseTemplate
+from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, redirect
 from funciones import tweet, retweet, favorite, user
 
 #Define rutas para el correcto funcionamiento en localhost
@@ -22,6 +22,10 @@ def tuit_post():
 	related = request.forms.get('related')
 	link, texto = tweet(text,url,via,in_reply_to,hashtags,related)
 	return template("index.tpl",url=url,in_reply_to=in_reply_to,via=via,hashtags=hashtags,related=related,link=link,texto=texto)
+
+@get('/tuit')
+def redireccion():
+	return redirect('/')
 
 @route('/retuit')
 def retuit():
@@ -68,7 +72,7 @@ def avisolegal():
 
 @error(404)
 def error404(error):
-	return "ERROR 404: Página no encontrada"
+	return template("error.tpl")
 
 # This must be added in order to do correct path lookups for the views
 ON_OPENSHIFT = False

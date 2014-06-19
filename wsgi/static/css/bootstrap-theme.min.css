@@ -53,6 +53,7 @@
 a:hover{text-decoration:none}
 .izq{float:left}
 .der{float:right}
+.centrar{text-align:center}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png) no-repeat;float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .navbar-nav li{font-family:BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;float:left;font-size:20px;line-height:0;text-align:center}
 .navbar-nav li:hover,.navbar-nav:focus{text-decoration:none;background:#00A7FF !important}
@@ -76,6 +77,8 @@ footer:hover{opacity:1}
 #legal{float:right;margin:8px 0}
 #legal a{color:#4b4b4b}
 .logotipo span,#copiar-link span,#evaristo-gz span{display:none}
+.error{display:block;margin:0 auto;text-align:center;font-size:18px !important}
+.error a{color:#333}
 @media (max-width:768px){
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
