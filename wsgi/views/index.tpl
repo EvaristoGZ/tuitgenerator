@@ -50,7 +50,7 @@
 				<input class="form-control input-lg" name="url" id="url" type="url" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text"  title="No debe incluir #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" title="No debe incluir #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
 			</div>
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" title="No debe incluir @." placeholder="Vía: tuitgenerator">
