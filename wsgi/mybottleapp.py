@@ -10,7 +10,7 @@ def server_static(filename):
 
 @route('/')
 def index():
-	return template("index.tpl",link="",texto="")
+	return template("index.tpl",url="",in_reply_to="",via="",hashtags="",related="",link="",texto="")
 
 @post('/')
 def recibir():
@@ -21,7 +21,7 @@ def recibir():
 	hashtags = request.forms.get('hashtags')
 	related = request.forms.get('related')
 	link, texto = tweet(text,url,via,in_reply_to,hashtags,related)
-	return template("index.tpl",link=link,texto=texto)
+	return template("index.tpl",url=url,in_reply_to=in_reply_to,via=via,hashtags=hashtags,related=related,link=link,texto=texto)
 
 @route('/retuit')
 def retuit():

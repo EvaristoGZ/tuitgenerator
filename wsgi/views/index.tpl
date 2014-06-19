@@ -44,22 +44,22 @@
 		<h1>Hello, world!</h1>
 			<form id="formulario" method="post">
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="text" id="text" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellena los campos de texto con el formato especificado">
+				<input class="form-control input-lg" name="text" id="text" value="{{texto}}" type="text" required aria-required="true" maxlength="140" autocomplete="off" autofocus title="No debe exceder 140 caracteres." placeholder="Texto: Rellene los campos de texto con el formato especificado">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="url" id="url" type="url" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
+				<input class="form-control input-lg" name="url" id="url" type="url" value="{{url}}" title="Debe de incluir http://" placeholder="URL: http://www.google.com">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="hashtags" id="hashtags" type="text" title="No debe incluir #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
+				<input class="form-control input-lg" name="hashtags" id="hashtags" value="{{hashtags}}" type="text" title="No debe incluir #. En caso de ser varios sepárelos por comas sin espacios." placeholder="Hashtags: Python,Bottle">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="via" id="via" type="text" pattern="^[A-Za-z0-9_]{1,15}$" title="No debe incluir @." placeholder="Vía: tuitgenerator">
+				<input class="form-control input-lg" name="via" id="via" value="{{via}}" type="text" pattern="*{1,16}$" title="No debe incluir @." placeholder="Vía: tuitgenerator">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" type="text" title="Debe ser el ID mostrado al final de la URL del tweet." placeholder="En respuesta a: 476067205483102208">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" value="{{in_reply_to}}" type="text" title="Debe ser el ID mostrado al final de la URL del tweet." placeholder="En respuesta a: 476067205483102208">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="related" id="related" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
+				<input class="form-control input-lg" name="related" id="related" value="{{related}}" type="text" title="No debe incluir @. En caso de ser varios sepárelos por comas sin espacios." placeholder="Perfiles relacionados: EvaristoGZ,tuitgenerator">
 			</div>
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div class="col-md-10 der">
