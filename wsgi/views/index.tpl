@@ -6,9 +6,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web</title>
-		<meta name="description" content="">
+		<title>Generar un tuit - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
+		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
+		<meta name="keywords" content="tuitgenerator, twitter, social media, HTML">
+		<meta name="author" content="Evaristo GZ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="static/img/favicon.ico">
+		<link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
@@ -79,7 +83,7 @@
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando."</a></p>
+		  <p><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
 		</div>
