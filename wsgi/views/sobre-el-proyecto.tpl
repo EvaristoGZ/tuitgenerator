@@ -6,12 +6,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web</title>
-		<meta name="description" content="">
+		<title>Sobre el proyecto tuitgenerator. Para qué sirve, cómo funciona, cómo personalizarlo...</title>
+		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
+		<meta name="keywords" content="tuitgenerator, twitter, social media, HTML">
+		<meta name="author" content="Evaristo GZ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="static/img/favicon.ico">
+		<link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
+		<meta property="og:image" content="static/img/logofb.jpg"/>
+		<meta property="og:title" content="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"/>
+		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
-		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -52,13 +58,13 @@
 			</ul>
 
 			<p>Si aún así prefiere ver cómo funciona, estos son algunos ejemplos:</p>
-			<div class="col-md-3"><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando."</a></div><div class="col-md-3"><a href="https://twitter.com/intent/retweet?&tweet_id=470825491642204160&related=EvaristoGZ,tuitgenerator" title="Click para retuitear." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Comparte con tus seguidores estos ejercicios rutinarios para evitar molestias musculares.</a></div><div class="col-md-3"><a href="https://twitter.com/intent/favorite?&tweet_id=20&related=EvaristoGZ,tuitgenerator,jack" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">"just setting up my twttr", el primer tweet de la historia.</a></div><div class="col-md-3"><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Información del perfil de Twitter de @EvaristoGZ</a></div>
+			<div class="col-md-3"><a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1);">"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a></div><div class="col-md-3"><a href="https://twitter.com/intent/retweet?&tweet_id=470825491642204160&related=EvaristoGZ,tuitgenerator" title="Click para retuitear." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Comparte con tus seguidores estos ejercicios rutinarios para evitar molestias musculares.</a></div><div class="col-md-3"><a href="https://twitter.com/intent/favorite?&tweet_id=20&related=EvaristoGZ,tuitgenerator,jack" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">"just setting up my twttr", el primer tweet de la historia.</a></div><div class="col-md-3"><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Información del perfil de Twitter de @EvaristoGZ</a></div>
 			<div class="clear"></div>
 
 			<h1><a href="#como-funciona" name="como-funciona">¿Cómo funciona?</a></h1>
 			<p>Esta herramienta está desarrollada con el lenguaje de programación Python, hace uso del framework web Bottle y se ejecuta en los servidores gratuitos de OpenShift.</p>
 			<p>El método que utiliza es Web Intents de Twitter, un método del cual Twitter ofrece documentación en su sitio web para desarrolladores y que tiene como fin crear, a través de parámetros, una dirección URL que permita interactuar al usuario final.</p>
-			<p>La forma en la que se genera la dirección URL es simple: se parte de una dirección URL base (diferente para cada interacción) y mediante un formulario se solicita los distintos parámetros los cuales están asociados a una variable. Al enviar, se comprueba campo a campo si es distinto a 0, en caso de ser así se concatena a la dirección URL base el parámetro junto con el valor de ese campo del formulario.</p>
+			<p>La forma en la que se genera la dirección URL es simple: se parte de una dirección URL base (diferente para cada interacción) y mediante un formulario se solicita los distintos parámetros, los cuales están asociados a una variable. Al enviar, se comprueba campo a campo si es distinto a 0, en caso de ser así se concatena a la dirección URL base el parámetro junto con el valor de ese campo del formulario.</p>
 			
 			<h1><a href="#como-personalizarlo" name="como-personalizarlo">¿Cómo personalizarlo?</a></h1>
 			<p>Personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado, listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.</p>

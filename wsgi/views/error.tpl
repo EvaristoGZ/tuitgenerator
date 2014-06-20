@@ -7,8 +7,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Error 404: Página no encontrada - tuitgenerator</title>
-		<meta name="description" content="">
+		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
+		<meta name="keywords" content="tuitgenerator, twitter, social media, HTML">
+		<meta name="author" content="Evaristo GZ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="static/img/favicon.ico">
+		<link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
+		<meta property="og:image" content="static/img/logofb.jpg"/>
+		<meta property="og:title" content="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"/>
+		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 	</head>

@@ -13,6 +13,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="static/img/favicon.ico">
 		<link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
+		<meta property="og:image" content="static/img/logofb.jpg"/>
+		<meta property="og:title" content="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"/>
+		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
@@ -60,7 +63,7 @@
 				<input class="form-control input-lg" name="via" id="via" value="{{via}}" type="text" pattern="\S{1,16}$" title="No debe incluir espacios ni superar los 16 caracteres." placeholder="Vía: @tuitgenerator">
 			</div>
 			<div class="col-md-4">
-				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" value="{{in_reply_to}}" type="text" title="Puede introducir el ID (mostrado al final de la URL del tweet)." placeholder="En respuesta a: 476067205483102208">
+				<input class="form-control input-lg" name="in_reply_to" id="in_reply_to" value="{{in_reply_to}}" type="text" title="Puede introducir el ID (mostrado al final de la URL del tweet)." placeholder="En respuesta a: https://twitter.com/tuitgenerator/status/476067205483102208">
 			</div>
 			<div class="col-md-4">
 				<input class="form-control input-lg" name="related" id="related" value="{{related}}" type="text" title="Puede incluir @. En caso de ser varios sepárelos por espacios." placeholder="Perfiles relacionados: @EvaristoGZ @tuitgenerator">

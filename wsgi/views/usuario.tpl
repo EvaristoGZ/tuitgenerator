@@ -6,9 +6,16 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web</title>
-		<meta name="description" content="">
+		<title>Mostrar información de un perfil - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
+		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
+		<meta name="keywords" content="tuitgenerator, twitter, social media, HTML">
+		<meta name="author" content="Evaristo GZ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="static/img/favicon.ico">
+		<link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
+		<meta property="og:image" content="static/img/logofb.jpg"/>
+		<meta property="og:title" content="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"/>
+		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
@@ -47,7 +54,7 @@
 				<input class="form-control input-lg" name="text" id="text" value="{{texto}}" type="text" maxlength="140" autocomplete="off" autofocus title="Texto para generar el enlace en el código HTML" placeholder="Texto a enlazar (Opcional)">
 			</div>
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="screen_name" id="screen_name" value="{{screen_name}}" type="text" pattern="\S{1,16}$" required aria-required="true" title="Puede incluir @." placeholder="Perfil de Twitter: @tuitgenerator">
+				<input class="form-control input-lg" name="screen_name" id="screen_name" value="{{screen_name}}" type="text" required aria-required="true" pattern="\S{1,16}$" title="No debe incluir espacios ni superar los 16 caracteres." placeholder="Perfil de Twitter: @tuitgenerator">
 			</div>
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div class="col-md-10 der">
