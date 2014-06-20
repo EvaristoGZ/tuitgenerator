@@ -40,9 +40,9 @@
 
 	<div class="jumbotron">
 	  <div class="container">
-			<img src="static/img/404.png" class="error" alt="Error 404. Página no encontrada">
+			<img src="static/img/404.png" id="error-img" alt="Error 404. Página no encontrada">
 			<h1>Página no encontrada</h1>
-			<p class="error"><a href="/" title="Volver al inicio">Volver al inicio</a></p>
+			<p id="error"><a href="/" title="Volver al inicio">Volver al inicio</a></p>
 	  </div>
 	</div>
 	<div class="container">
