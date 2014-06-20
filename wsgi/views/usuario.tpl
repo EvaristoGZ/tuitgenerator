@@ -47,14 +47,14 @@
 				<input class="form-control input-lg" name="text" id="text" value="{{texto}}" type="text" maxlength="140" autocomplete="off" autofocus title="Texto para generar el enlace en el código HTML" placeholder="Texto a enlazar (Opcional)">
 			</div>
 			<div class="col-md-12">
-				<input class="form-control input-lg" name="screen_name" id="screen_name" value="{{screen_name}}" type="text" pattern="\S{1,16}$" title="Puede incluir @." placeholder="Perfil de Twitter: @tuitgenerator">
+				<input class="form-control input-lg" name="screen_name" id="screen_name" value="{{screen_name}}" type="text" pattern="\S{1,16}$" required aria-required="true" title="Puede incluir @." placeholder="Perfil de Twitter: @tuitgenerator">
 			</div>
 			<input id="generar" class="btn btn-primary btn-lg" value="Generar" type="submit" role="button">
 			<div class="col-md-10 der">
 				<p class="link">{{link or 'Pulse "Generar" para mostrar el resultado'}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
 			</div>
 			</form>
-		</div>
+	  </div>
 	</div>
 
 	<div class="container">
@@ -62,12 +62,12 @@
 		<div class="col-md-4">
 		  <h2>Código HTML</h2>
 		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
-		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para ver la información del perfil de Twitter." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
+		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para ver la información del perfil de Twitter." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
 		</div>
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)">Información del perfil de Twitter de @EvaristoGZ</a></p>
+		  <p><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Información del perfil de Twitter de @EvaristoGZ</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
 		</div>

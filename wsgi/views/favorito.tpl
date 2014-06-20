@@ -47,7 +47,7 @@
 				<input class="form-control input-lg" name="text" id="text" value="{{texto}}" type="text" maxlength="140" autocomplete="off" autofocus title="Texto para generar el enlace en el código HTML" placeholder="Texto a enlazar (Opcional)">
 			</div>
 			<div class="col-md-6">
-				<input class="form-control input-lg" name="tweet_id" id="tweet_id" value="{{tweet_id}}" type="text" title="Puede introducir el ID (mostrado al final de la URL del tweet)." placeholder="Dirección URL del tuit: https://twitter.com/tuitgenerator/status/476067205483102208">
+				<input class="form-control input-lg" name="tweet_id" id="tweet_id" value="{{tweet_id}}" type="text" required aria-required="true" title="Puede introducir el ID (mostrado al final de la URL del tweet)." placeholder="Dirección URL del tuit: https://twitter.com/tuitgenerator/status/476067205483102208">
 			</div>
 			<div class="col-md-6">
 				<input class="form-control input-lg" name="related" id="related" value="{{related}}" type="text" title="Puede incluir @. En caso de ser varios sepárelos por espacios." placeholder="Perfiles relacionados: @EvaristoGZ @tuitgenerator">
@@ -57,7 +57,7 @@
 				<p class="link">{{link or 'Pulse "Generar" para mostrar el resultado'}}<a href="#" id="copiar-link"><span>Copiar link</span></a></p>
 			</div>
 			</form>
-		</div>
+	  </div>
 	</div>
 
 	<div class="container">
@@ -65,12 +65,12 @@
 		<div class="col-md-4">
 		  <h2>Código HTML</h2>
 		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
-		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
+		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
 		</div>
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/favorite?&tweet_id=20&related=EvaristoGZ,tuitgenerator,jack" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 16px; line-height:19px; color:rgba(0,172,238,1)">"just setting up my twttr", el primer tweet de la historia.</a></p>
+		  <p><a href="https://twitter.com/intent/favorite?&tweet_id=20&related=EvaristoGZ,tuitgenerator,jack" title="Click para marcar como favorito." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">"just setting up my twttr", el primer tweet de la historia.</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
 		</div>
