@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, redirect
-from flask import Flask, request, send_from_directory
 from funciones import tweet, retweet, favorite, user
 
 #Define rutas para el correcto funcionamiento en localhost
@@ -70,11 +69,6 @@ def sobreelproyecto():
 @route('/aviso-legal')
 def avisolegal():
 	return template("aviso-legal.tpl")
-
-@app.route('/robots.txt')
-@app.route('/sitemap.xml')
-def static_from_root():
-    return send_from_directory(app.static_folder, request.path[1:])
 
 @error(404)
 def error404(error):
