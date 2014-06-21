@@ -16,11 +16,11 @@
 		<meta property="og:image" content="static/img/logofb.jpg"/>
 		<meta property="og:title" content="tuitgenerator - Genera código HTML para interactuar con Twitter desde tu web"/>
 		<meta property="og:site_name" content="tuitgenerator"/>
-		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$.cookieBar({
