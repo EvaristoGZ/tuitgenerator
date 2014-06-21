@@ -20,6 +20,13 @@
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
 		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.cookieBar({
+				fixed: true
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
