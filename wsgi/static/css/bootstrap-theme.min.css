@@ -53,6 +53,8 @@
 a:hover{text-decoration:none}
 .izq{float:left}
 .der{float:right}
+::selection{background:#00A7FF;color:#005285}
+::-moz-selection{background:#00A7FF;color:#005285}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png) no-repeat;float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .navbar-nav li{font-family:BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;float:left;font-size:20px;line-height:0;text-align:center}
 .navbar-nav li:hover,.navbar-nav:focus{text-decoration:none;background:#00A7FF !important}
@@ -80,6 +82,16 @@ footer:hover{opacity:1}
 #error-img{display:block;margin:0 auto}
 #error{text-align:center;font-size:18px !important}
 #error a{color:#333}
+#cookie-bar {background:#111111; height:24px; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0;}
+#cookie-bar.fixed {position:fixed; bottom:0; left:0; width:100%;}
+#cookie-bar p {margin:0; padding:0;}
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:#007700;}
+#cookie-bar .cb-enable:hover {background:#009900;}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:#0033bb;}
+#cookie-bar .cb-policy:hover {background:#0055dd;}
 @media (max-width:768px){
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}

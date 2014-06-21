@@ -18,7 +18,16 @@
 		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
+		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.cookieBar({
+				fixed: true
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -110,7 +119,7 @@
 		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
 	  	<div class="clear"></div>
 	  </footer>
-	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</div> <!-- /container -->			
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
 		<script src="static/js/vendor/bootstrap.min.js"></script>
@@ -142,5 +151,7 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
+	<div id="cookies">
+	</div>
 	</body>
 </html>
