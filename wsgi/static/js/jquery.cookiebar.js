@@ -29,15 +29,15 @@
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Desactivar', //Text on decline/disable button
 			policyButton: true, //Set to true to show Privacy Policy button
-			policyText: 'Más información', //Text on Privacy Policy button
+			policyText: 'M&aacutes informaci&oacuten', //Text on Privacy Policy button
 			policyURL: '/cookies/', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
 			expireDays: 365, //Number of days for cookieBar cookie to be stored for
 			forceShow: false, //Force cookieBar to show regardless of user cookie preference
 			effect: 'slide', //Options: slide, fade, hide
-			element: '#cookies', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
+			element: '#barracookies', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
-			fixed: false, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+			fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			zindex: '', //Can be set in CSS, although some may prefer to set here
 			redirect: String(window.location.href), //Current location
 			domain: String(window.location.hostname) //Location of privacy policy
