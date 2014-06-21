@@ -29,7 +29,7 @@
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Desactivar', //Text on decline/disable button
 			policyButton: true, //Set to true to show Privacy Policy button
-			policyText: 'M&aacutes informaci&oacuten', //Text on Privacy Policy button
+			policyText: 'Mas informacion', //Text on Privacy Policy button
 			policyURL: '/cookies/', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
 			expireDays: 365, //Number of days for cookieBar cookie to be stored for
