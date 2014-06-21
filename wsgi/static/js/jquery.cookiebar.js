@@ -35,7 +35,7 @@
 			expireDays: 365, //Number of days for cookieBar cookie to be stored for
 			forceShow: false, //Force cookieBar to show regardless of user cookie preference
 			effect: 'slide', //Options: slide, fade, hide
-			element: '#barracookies', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
+			element: '#cookies', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
 			fixed: false, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			zindex: '', //Can be set in CSS, although some may prefer to set here
