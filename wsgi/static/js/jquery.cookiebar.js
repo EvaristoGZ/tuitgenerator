@@ -78,7 +78,7 @@
 				return true;
 			}else{
 				return false;
-				setTimeout("return true",10000)
+				setTimeout(return true,10000)
 			}
 		}else{
 			//Sets up enable/accept button if required
