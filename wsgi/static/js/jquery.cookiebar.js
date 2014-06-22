@@ -37,7 +37,7 @@
 			effect: 'slide', //Options: slide, fade, hide
 			element: '#cookies', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
-			fixed: false, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+			fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			zindex: '', //Can be set in CSS, although some may prefer to set here
 			redirect: String(window.location.href), //Current location
 			domain: String(window.location.hostname) //Location of privacy policy
@@ -80,12 +80,6 @@
 				return false;
 			}
 		}else{
-			//Sets up privacy policy button if required
-			if(options.policyButton){
-				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
-			}else{
-				var policyButton = '';
-			}
 			//Sets up enable/accept button if required
 			var message = options.message.replace('{policy_url}',options.policyURL);
 			
@@ -99,6 +93,12 @@
 				var declineButton = '<a href="" class="cb-disable">'+options.declineText+'</a>';
 			}else{
 				var declineButton = '';
+			}
+			//Sets up privacy policy button if required
+			if(options.policyButton){
+				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
+			}else{
+				var policyButton = '';
 			}
 			//Whether to add "fixed" class to cookie bar
 			if(options.fixed){
