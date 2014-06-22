@@ -23,7 +23,7 @@
 			var doReturn = false;
 		}
 		var defaults = {
-			message: 'Esta web utiliza cookies para mejorar la experiencia del usuario.', //Message displayed on bar
+			message: '<a href="/cookies" title="Mostrar m&aacutes informaci&oacuten sobre el uso de cookies">Esta web utiliza cookies para mejorar la experiencia del usuario.</a>', //Message displayed on bar
 			acceptButton: true, //Set to true to show accept/enable button
 			acceptText: 'Acepto', //Text on accept/enable button
 			declineButton: false, //Set to true to show decline/disable button
