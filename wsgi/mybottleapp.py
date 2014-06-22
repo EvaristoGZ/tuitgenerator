@@ -70,6 +70,10 @@ def sobreelproyecto():
 def avisolegal():
 	return template("aviso-legal.tpl")
 
+@route('/sobre-el-uso-de-cookies')
+def sobreelusodecookies():
+	return template("sobre-el-uso-de-cookies.tpl")
+
 @error(404)
 def error404(error):
 	return template("error.tpl")
