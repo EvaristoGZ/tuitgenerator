@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="es"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Marcar como favorito - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
@@ -19,6 +20,15 @@
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.cookieBar({
+				fixed: true
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>

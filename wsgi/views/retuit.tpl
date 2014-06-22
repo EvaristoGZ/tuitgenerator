@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="es"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Generar un retuit - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
@@ -19,6 +20,15 @@
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
 		<script type="text/javascript" src="static/js/ZeroClipboard.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.cookieBar({
+				fixed: true
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -101,7 +111,7 @@
 		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
 	  	<div class="clear"></div>
 	  </footer>
-	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</div> <!-- /container -->			
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
 		<script src="static/js/vendor/bootstrap.min.js"></script>
@@ -133,5 +143,7 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
+	<div id="cookies">
+	</div>
 	</body>
 </html>

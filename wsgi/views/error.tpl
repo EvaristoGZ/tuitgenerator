@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="es"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Error 404: Página no encontrada - tuitgenerator</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
@@ -18,6 +19,15 @@
 		<meta property="og:site_name" content="tuitgenerator"/>
 		<link rel="stylesheet" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.cookieBar({
+				fixed: true
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -60,19 +70,19 @@
 		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
 	  	<div class="clear"></div>
 	  </footer>
-	</div> <!-- /container -->			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</div> <!-- /container -->			
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
 		<script src="static/js/vendor/bootstrap.min.js"></script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-			e.src='//www.google-analytics.com/analytics.js';
-			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-			ga('create','UA-XXXXX-X');ga('send','pageview');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create','UA-31340698-15','tuitgenerator-evgarciaz.rhcloud.com');
+			ga('send','pageview');
 		</script>
+	<div id="cookies">
+	</div>
 	</body>
 </html>
