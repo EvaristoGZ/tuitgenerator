@@ -60,8 +60,16 @@
 			<p>En informática, las "cookies" son unos pequeños ficheros enviados por un sitio web que a su vez son descargados y almacenados en el navegador web del usuario. De esta manera las cookies permiten, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de ese equipo.</p>
 			<p>A día de hoy, resulta prácticamente imposible encontrar un sitio web que no haga uso de cookies. Sus usos pueden ser la implementación de un sistema de analítica web, mantener los productos de un carrito de la compra tras cerrar la página web, mantener abierta una sesión de usuario durante un determinado tiempo en dicho sitio web... De hecho, el mismo mismo aviso de que esta web está utilizando cookies hace uso de una de ellas, para guardar tu confirmación cuando así sea.</p>
 			<h1><a href="#por-que-informamos" name="por-que-informamos">¿Por qué informamos?</a></h1>
-			<p>Desde abril de 2012, para instalar cookies en los terminales de los usuarios (ya sea ordenador, dispositivos móvil u otros) es necesario informar sobre el uso de cookies y obtener el consentimiento de los usuarios, salvo en determinados casos.</p>
-			<p>En un primer momento, se debía de obtener el consentimiento explícito de los usuarios.</p>
+			<p>Desde abril de 2012, para instalar cookies en los terminales de los usuarios (ya sea ordenador, dispositivos móvil u otros) es necesario informar sobre el uso de cookies y obtener el consentimiento de los usuarios, salvo en determinados casos. Es por ello por lo que la mayoría de los sitios web que están actualizados muestran un aviso de uso de cookies.</p>
+			<p>En un primer momento, se debía de obtener el consentimiento explícito de los usuarios pero esto suponía un problema para los desarrolladores web. Como ya he comentado, solo el mostrar el aviso de cookies debía de instalar ya de por sí una cookie, cuando ésta fuera aceptada esa cookie guardaría el consentimiento del usuario. Por otra parte, estaba la barrera de no poder utilizar una cookie para analítica web como, por ejemplo, Google Analytics, hasta que el usuario no pulsase el botón de consentimiento y por lo tanto haciendo imposible tener una analítica real de los visitantes de un sitio web. Era una Ley que ni los mismos sitios web pertenecientes al Gobierno eran capaces de cumplir en ocasiones.</p>
+			<p>Más tarde, la Ley se reformó: los usuarios debían de ser informados pero no era necesario el consentimiento explícito. Ahora, si un usuario continúa navegando por nuestra sitio web se considera que acepta su uso.</p>
+			<p>Puede consultar más información sobre la Ley de Cookies en la "<a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf">Guía sobre el uso de las cookies</a>" de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
+			<h1><a href="#que-tipos-de-cookies-utiliza-tuitgenerator" name="que-tipos-de-cookies-utiliza-tuitgenerator">¿Qué tipos de cookies utiliza tuitgenerator?</a></h1>
+			<p>tuitgenerator utiliza las siguientes cookies:</p>
+			<ul>
+				<li>Cookies de análisis: _ga, una cookie gestionada por la herramienta de analítica web Google Analytics. Esta cookie tiene como fin el análisis estadístico permitiendo cuantificar el número de visitantes, las páginas más visitas, el tiempo que los visitantes pasan en una página, etc.</li>
+				<li>Cookies propias: cb-enabled, es una cookie generada por el plugin jQuery CookieBar cuyo fin es establecer el estado del consentimiento del uso de cookies por parte del usuario. Permite mostrar o no la barra de aviso de uso de cookies.</li>
+			</ul>
 		</div>
 
 	  <hr>
