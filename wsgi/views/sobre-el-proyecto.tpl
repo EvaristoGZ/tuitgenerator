@@ -2,10 +2,9 @@
 <!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>			<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="Content-Language" content="es"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Sobre el proyecto tuitgenerator. Para qué sirve, cómo funciona, cómo personalizarlo...</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
@@ -56,7 +55,7 @@
 	</div>
 
 	<div class="container">
-		<div id="sobre-el-proyecto">
+		<div class="estatica">
 			<h1><a href="#para-que-sirve" name="para-que-sirve">¿Para qué sirve?</a></h1>
 			<p>tuitgenerator es una herramienta online que tiene como objetivo facilitar la interacción de contenido personalizado mediante la red social Twitter desde otros medios. Tras rellenar los campos del formulario se genera una dirección URL y un código HTML que puede incrustar directamente en páginas webs, blogs o emails. La característica de este método es que no es necesario salir de la página, ni tampoco autorizar una nueva aplicación para realizar una simple interacción. Los beneficios pueden ser muchos, uno de ellos es generar mayor tráfico hacia su página web.</p>
 			<p>Desde esta web puede generar todas las interacciones que Twitter permite mediante Web Intents, que son las siguientes:</p>

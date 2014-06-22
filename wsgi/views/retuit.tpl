@@ -2,10 +2,9 @@
 <!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>			<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="Content-Language" content="es"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Generar un retuit - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
@@ -113,35 +112,25 @@
 	  </footer>
 	</div> <!-- /container -->			
 		<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
 		<script src="static/js/vendor/bootstrap.min.js"></script>
 		<script type="text/javascript">
 		var client = new ZeroClipboard( $("a#copiar-link") );
-
 		  client.on( 'ready', function(event) {
 		// console.log( 'movie is loaded' );
-
 			client.on( "copy", function (event) {
 				var clipboard = event.clipboardData;
 				clipboard.setData( "text/plain", "{{link}}" );
-				clipboard.setData( "text/html", "<b>Copy me!</b>" );
-				clipboard.setData( "application/rtf", "{\\rtf1\\ansi\n{\\b Copy me!}}" );
 			});
-
-			client.on( 'aftercopy', function(event) {
-				console.log('Texto copiado al portapapeles: ' + event.data['text/plain']);
-			} );
 		} );
 		</script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-			e.src='//www.google-analytics.com/analytics.js';
-			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-			ga('create','UA-XXXXX-X');ga('send','pageview');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create','UA-31340698-15','tuitgenerator-evgarciaz.rhcloud.com');
+			ga('send','pageview');
 		</script>
 	<div id="cookies">
 	</div>

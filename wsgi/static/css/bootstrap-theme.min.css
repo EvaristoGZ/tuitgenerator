@@ -69,10 +69,10 @@ a:hover{text-decoration:none}
 #menu-informacion li{margin:0 0 10px}
 #menu-informacion li a{color:#333}
 #menu-informacion li a:hover{color:#00A7FF}
-#sobre-el-proyecto h1{border-bottom:3px solid #00A7FF;margin:25px 0 15px 0}
-#sobre-el-proyecto h1 a{color:#333}
-#sobre-el-proyecto h1 a:hover{color:#00A7FF}
-#sobre-el-proyecto p{text-align:justify}
+.estatica h1{border-bottom:3px solid #00A7FF;margin:25px 0 15px 0}
+.estatica h1 a{color:#333}
+.estatica h1 a:hover{color:#00A7FF}
+.estatica p{text-align:justify}
 footer{opacity:.5;transition:all .4s ease-in-out}
 footer:hover{opacity:1}
 #evaristo-gz{background:url(/static/img/Evaristo-GZ.png) no-repeat;width:223px;height:38px;float:left}
