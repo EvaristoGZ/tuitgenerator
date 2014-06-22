@@ -65,10 +65,19 @@
 			<p>Más tarde, la Ley se reformó: los usuarios debían de ser informados pero no era necesario el consentimiento explícito. Ahora, si un usuario continúa navegando por nuestra sitio web se considera que acepta su uso.</p>
 			<p>Puede consultar más información sobre la Ley de Cookies en la "<a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf">Guía sobre el uso de las cookies</a>" de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
 			<h1><a href="#que-tipos-de-cookies-utiliza-tuitgenerator" name="que-tipos-de-cookies-utiliza-tuitgenerator">¿Qué tipos de cookies utiliza tuitgenerator?</a></h1>
-			<p>tuitgenerator utiliza las siguientes cookies:</p>
+			<p>tuitgenerator utiliza las siguientes cookies, ninguna de ellas recoge información personal como son nombres y apellidos, números de teléfono, direcciones postales...</p>
 			<ul>
-				<li>Cookies de análisis: _ga, una cookie gestionada por la herramienta de analítica web Google Analytics. Esta cookie tiene como fin el análisis estadístico permitiendo cuantificar el número de visitantes, las páginas más visitas, el tiempo que los visitantes pasan en una página, etc.</li>
-				<li>Cookies propias: cb-enabled, es una cookie generada por el plugin jQuery CookieBar cuyo fin es establecer el estado del consentimiento del uso de cookies por parte del usuario. Permite mostrar o no la barra de aviso de uso de cookies.</li>
+				<li><b>Cookies de análisis</b>: _ga, una cookie gestionada por la herramienta de analítica web Google Analytics. Esta cookie tiene como fin el análisis estadístico permitiendo cuantificar el número de visitantes, el idioma de los visitantes, número de nuevos usuarios, tiempo de visita, navegadores y sistemas operativos utilizados, etc.</li>
+				<li><b>Cookies propias</b>: cb-enabled, es una cookie generada por el plugin jQuery CookieBar cuyo fin es establecer el estado del consentimiento del uso de cookies por parte del usuario. Con ella, permite que se muestre o no la barra de aviso de uso de cookies según la condición del usuario visitante.</li>
+			</ul>
+			<h1><a href="#como-administrar-las-cookies" name="como-administrar-las-cookies">¿Cómo administrar las cookies?</a></h1>
+			<p>Puede permitir, conocer, bloquear o eliminar las ocokies instaladas en tu equipo mediante la configuración de las opciones del navegador web que utiliza. Puede encontrar información sobre cómo hacerlo en los sitios web de los principales navegadores</p>
+			<ul>
+				<li>Administrar cookies y datos de sitios en <a href="https://support.google.com/chrome/answer/95647?hl=es">Google Chrome</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">Mozilla Firefox</li>
+				<li>Administrar cookies y datos de sitios en <a href="http://windows.microsoft.com/es-es/windows7/block-enable-or-allow-cookies">Internet Explorer</li>
+				<li>Administrar cookies y datos de sitios en <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES&locale=es_ES">Safari</li>
+				<li>Administrar cookies y datos de sitios en <a href="http://help.opera.com/Mac/12.10/en/cookies.html">Opera</li>
 			</ul>
 		</div>
 
