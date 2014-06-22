@@ -74,10 +74,10 @@
 			<p>Puede permitir, conocer, bloquear o eliminar las ocokies instaladas en tu equipo mediante la configuración de las opciones del navegador web que utiliza. Puede encontrar información sobre cómo hacerlo en los sitios web de los principales navegadores</p>
 			<ul>
 				<li>Administrar cookies y datos de sitios en <a href="https://support.google.com/chrome/answer/95647?hl=es">Google Chrome</a></li>
-				<li>Administrar cookies y datos de sitios en <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">Mozilla Firefox</li>
-				<li>Administrar cookies y datos de sitios en <a href="http://windows.microsoft.com/es-es/windows7/block-enable-or-allow-cookies">Internet Explorer</li>
-				<li>Administrar cookies y datos de sitios en <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES&locale=es_ES">Safari</li>
-				<li>Administrar cookies y datos de sitios en <a href="http://help.opera.com/Mac/12.10/en/cookies.html">Opera</li>
+				<li>Administrar cookies y datos de sitios en <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">Mozilla Firefox</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://windows.microsoft.com/es-es/windows7/block-enable-or-allow-cookies">Internet Explorer</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES&locale=es_ES">Safari</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://help.opera.com/Mac/12.10/en/cookies.html">Opera</a></li>
 			</ul>
 		</div>
 
