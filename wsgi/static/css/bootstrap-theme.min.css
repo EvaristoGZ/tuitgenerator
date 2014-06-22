@@ -90,8 +90,8 @@ footer:hover{opacity:1}
 #cookie-bar .cb-enable:hover{background:#009900}
 #cookie-bar .cb-disable{background:#990000}
 #cookie-bar .cb-disable:hover{background:#BB0000}
-#cookie-bar .cb-policy{background:#0033bb}
-#cookie-bar .cb-policy:hover{background:#0055dd}
+#cookie-bar .cb-policy{color:#000}
+#cookie-bar .cb-policy:hover{background:#0055dd;color:#FFF}
 @media (max-width:768px){
 	body{padding-top:0}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}

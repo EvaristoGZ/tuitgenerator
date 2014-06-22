@@ -80,6 +80,12 @@
 				return false;
 			}
 		}else{
+			//Sets up privacy policy button if required
+			if(options.policyButton){
+				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
+			}else{
+				var policyButton = '';
+			}
 			//Sets up enable/accept button if required
 			var message = options.message.replace('{policy_url}',options.policyURL);
 			
@@ -93,12 +99,6 @@
 				var declineButton = '<a href="" class="cb-disable">'+options.declineText+'</a>';
 			}else{
 				var declineButton = '';
-			}
-			//Sets up privacy policy button if required
-			if(options.policyButton){
-				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
-			}else{
-				var policyButton = '';
 			}
 			//Whether to add "fixed" class to cookie bar
 			if(options.fixed){
