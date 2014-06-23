@@ -77,17 +77,31 @@
 			
 			<h1><a href="#como-personalizarlo" name="como-personalizarlo">¿Cómo personalizarlo?</a></h1>
 			<p>Personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado o "inline", listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.</p>
-			<p>Las ventajas de hacerlo son conseguir una mejor apariencia en su página web y mejorar la optimización de su página, que además influye de forma indirecta en el posicionamiento en buscadores.</p>
+			<p>Las ventajas de hacerlo son:</p>
+			<ul>
+				<li><b>Opmitiza la carga</b>. El navegador web descargará una vez la hoja de estilos y la mantedrá en caché, no siendo necesario descargar el código referente al estilo cada vez que se acceda a la página con código incrustado.</li>
+				<li><b>Posicionamiento en buscadores</b>. La opmitización web influye en la relevancia de su sitio web para los buscadores y el tiempo de carga es uno de esos factores.</li>
+				<li><b>Conseguir una mejor apariencia en su página web</b>. Puede personalizar el resultado de sus Web Intents infinitamente sin engrosar el código HTML.</li>
+				<li><b>Facilidad de modificaciones</b>. Si en cualquier momento quiere cambiar la apariencia de todos sus Web Intents solo debe modificar un fichero.</li>
+				<li><b>Responsive Design</b>. Puede adaptar la apariencia de sus Web Intents según el tamaño del dispositivo en el que se visualice.</li>
+			</ul>
+			conseguir una mejor apariencia en su página web y mejorar la optimización de su página , que además influye de forma indirecta en el posicionamiento en buscadores.</p>
 
 			<p>Tomo como ejemplo éste código HTML para tuitear el mensaje "La inspiración existe, pero tiene que encontrarte trabajando.".</p>
 			<div id="code"><code>&lt;a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" <b>style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;"</b>&gt;"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.&lt;/a&gt;</code></div>
 			<p>Contiene un atributo llamado <i>style</i> que a su vez contiene propiedades de CSS, que son las que aplican estilo a la etiqueta <i>&lt;a&gt;</i> que realiza la función de hipervínculo. Ese es el código que debemos exportar a nuestra hoja de estilo, y si lo preferimos, editarlo para personalizar la apariencia de nuestro Web Intents.</p>
-			<p>Estas propiedades quedarían declaradas en una clase de CSS con un aspecto similar a este:</p>
+			<p>Estas propiedades quedarían declaradas en una clase de CSS con un aspecto similar al citado. Si observa las demás líneas de su hoja de estilo verás la sintáxis que sigue su documento.</p>
 			<div id="code"><code>.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}</code></div>
-			<p>Si observas las demás líneas de tu hoja de estilo verás la sintáxis que sigue.</p>
+			<p></p>
 
-			<p>Mientras tanto, en el código HTML reemplazaríamos todo el atributo <i>style</i> por <i>class="tuit"</i>:</p>
+			<p>Mientras tanto, en el código HTML reemplazaríamos todo el atributo <i>style</i> por <i>class="tuit"</i>.</p>
 			<div id="code"><code>&lt;a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" <b>class="tuit"</b>&gt;"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.&lt;/a&gt;</code></div>
+			<p>Para opmitizar más aún nuestro código podemos subir a nuestro servidor los iconos de cada tipo de interacción que se especifica en la propiedad <i>background</i>. De esta manera ahorramos una petición a otro servidor. Cada tipo de interacción debe tener una clase en nuestra hoja de estilos quedando así:</p>
+			<div id="code"><code>.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
+			.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
+			.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
+			.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br></code></div>
+			<p>Estos iconos los puedes encontrar en la "<a href="https://dev.twitter.com/docs/image-resources" title="Image resources" target="_blank">Image resources</a>" de la documentación oficial de Twitter.</p>
 
 			<h1><a href="#que-es-web-intents" name="que-es-web-intents">¿Qué es Web Intents?</a></h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra erat vel vulputate tincidunt. Nam congue sed augue vel tempus. Vestibulum at consequat lectus. Duis tempus leo at diam vehicula, ac malesuada magna vulputate. Nullam tempus risus sit amet feugiat pellentesque. Maecenas dapibus rhoncus fermentum. Suspendisse rutrum urna sem, at convallis dui pharetra in. Vivamus elit libero, iaculis nec orci id, placerat pharetra augue. Donec eu mi eget lectus volutpat fermentum eget ac est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed imperdiet nec sem quis pulvinar. Nulla consequat tempus porta. Aliquam ac ante ac arcu sodales dignissim. Donec rutrum mollis augue, at consequat odio. Etiam fermentum arcu sapien, vel aliquam augue aliquet pharetra. Pellentesque placerat laoreet sem, ac rutrum massa pulvinar quis.</p>
