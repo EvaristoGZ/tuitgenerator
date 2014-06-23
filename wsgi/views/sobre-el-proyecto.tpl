@@ -60,10 +60,10 @@
 			<p>tuitgenerator es una herramienta online que tiene como objetivo facilitar la interacción de contenido personalizado mediante la red social Twitter desde otros medios. Tras rellenar los campos del formulario se genera una dirección URL y un código HTML que puede incrustar directamente en páginas webs, blogs o emails. La característica de este método es que no es necesario salir de la página, ni tampoco autorizar una nueva aplicación para realizar una simple interacción. Los beneficios pueden ser muchos, uno de ellos es generar mayor tráfico hacia su página web.</p>
 			<p>Desde esta web puede generar todas las interacciones que Twitter permite mediante Web Intents, que son las siguientes:</p>
 			<ul>
-				<li>Generar un tuit: Al pulsar sobre el enlace, al usuario se le abrirá una nueva ventana desde la que generar un nuevo tuit desde su perfil de Twitter con el contenido que hemos personalizado. Además, podemos incluir otros campos como una dirección URL, hashtags o el perfil del que hemos tomado la información e incluso mostrar perfiles de Twitter relacionados tras tuitear el mensaje. También podemos hacer que dicho tuit sea una respuesta a otro.</li>
-				<li>Generar un retuit: Mediante el enlace, el usuario verá una nueva ventana desde la que podrá retuitear un tuit enviado anteriormente por otro usuario de Twitter. Tras el retuit podemos hacer que se muestren perfiles de Twitter relacionados.</li>
-				<li>Marcar un tuit como favorito: El enlace abrirá una nueva ventana desde la que el usuario podrá marcar como favorito un tuit anteriormente enviado por otro usuario de Twitter. Además, también podemos hacer que se muestren perfiles de Twitter relacionado tras la acción.</li>
-				<li>Seguir un perfil de Twitter: Al pulsar sobre el enlace, el usuario verá en una nueva ventana un pequeño resumen del perfil de Twitter configurado. En esta ventana, que mediante un botón permite seguir o dejar de seguir, se muestra información como el nombre de perfil, la bio, los seguidores y siguiendo además de los dos últimos tuits.</li>
+				<li><b>Generar un tuit</b>: Al pulsar sobre el enlace, al usuario se le abrirá una nueva ventana desde la que generar un nuevo tuit desde su perfil de Twitter con el contenido que hemos personalizado. Además, podemos incluir otros campos como una dirección URL, hashtags o el perfil del que hemos tomado la información e incluso mostrar perfiles de Twitter relacionados tras tuitear el mensaje. También podemos hacer que dicho tuit sea una respuesta a otro.</li>
+				<li><b>Generar un retuit</b>: Mediante el enlace, el usuario verá una nueva ventana desde la que podrá retuitear un tuit enviado anteriormente por otro usuario de Twitter. Tras el retuit podemos hacer que se muestren perfiles de Twitter relacionados.</li>
+				<li><b>Marcar un tuit como favorito</b>: El enlace abrirá una nueva ventana desde la que el usuario podrá marcar como favorito un tuit anteriormente enviado por otro usuario de Twitter. Además, también podemos hacer que se muestren perfiles de Twitter relacionado tras la acción.</li>
+				<li><b>Seguir un perfil de Twitter</b>: Al pulsar sobre el enlace, el usuario verá en una nueva ventana un pequeño resumen del perfil de Twitter configurado. En esta ventana, que mediante un botón permite seguir o dejar de seguir, se muestra información como el nombre de perfil, la bio, los seguidores y siguiendo además de los dos últimos tuits.</li>
 			</ul>
 
 			<p>Si aún así prefiere ver cómo funciona, estos son algunos ejemplos:</p>
@@ -96,12 +96,12 @@
 
 			<p>Mientras tanto, en el código HTML reemplazaríamos todo el atributo <i>style</i> por <i>class="tuit"</i>.</p>
 			<div id="code"><code>&lt;a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" <b>class="tuit"</b>&gt;"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.&lt;/a&gt;</code></div>
-			<p>Para opmitizar más aún nuestro código podemos subir a nuestro servidor los iconos de cada tipo de interacción que se especifica en la propiedad <i>background</i>. De esta manera ahorramos una petición a otro servidor. Cada tipo de interacción debe tener una clase en nuestra hoja de estilos quedando así:</p>
+			<p>Para opmitizar más aún el código puede subir a su servidor los iconos de cada tipo de interacción que se especifica en la propiedad <i>background</i>. De esta manera ahorra una petición a otro servidor. Cada tipo de interacción debe tener una clase en su hoja de estilos quedando así:</p>
 			<div id="code"><code>.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
 			.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
 			.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br>
 			.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:rgbacolor:#00A7FF;}<br></code></div>
-			<p>Estos iconos los puedes encontrar en la "<a href="https://dev.twitter.com/docs/image-resources" title="Image resources" target="_blank">Image resources</a>" de la documentación oficial de Twitter.</p>
+			<p>Estos iconos los puedes encontrar en <a href="https://dev.twitter.com/docs/image-resources" title="Image resources" target="_blank">"Image resources"</a> de la documentación oficial de Twitter.</p>
 
 			<h1><a href="#que-es-web-intents" name="que-es-web-intents">¿Qué es Web Intents?</a></h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra erat vel vulputate tincidunt. Nam congue sed augue vel tempus. Vestibulum at consequat lectus. Duis tempus leo at diam vehicula, ac malesuada magna vulputate. Nullam tempus risus sit amet feugiat pellentesque. Maecenas dapibus rhoncus fermentum. Suspendisse rutrum urna sem, at convallis dui pharetra in. Vivamus elit libero, iaculis nec orci id, placerat pharetra augue. Donec eu mi eget lectus volutpat fermentum eget ac est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed imperdiet nec sem quis pulvinar. Nulla consequat tempus porta. Aliquam ac ante ac arcu sodales dignissim. Donec rutrum mollis augue, at consequat odio. Etiam fermentum arcu sapien, vel aliquam augue aliquet pharetra. Pellentesque placerat laoreet sem, ac rutrum massa pulvinar quis.</p>
@@ -120,7 +120,7 @@
 
 	  <footer class="footer">
 		<a href="http://www.EvaristoGZ.com" id="evaristo-gz" target="_blank"><span>Evaristo GZ</span></a>
-		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
+		<div id="legal"><a href="aviso-legal">Aviso Legal</a> | <a href="aviso-de-cookies">Aviso de cookies</a></div>
 	  	<div class="clear"></div>
 	  </footer>
 	</div> <!-- /container -->			
