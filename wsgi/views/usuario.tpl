@@ -83,7 +83,7 @@
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:rgba(0,172,238,1)">Información del perfil de Twitter de @EvaristoGZ</a></p>
+		  <p><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#000A7FF">Información del perfil de Twitter de @EvaristoGZ</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
 		</div>
