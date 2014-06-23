@@ -104,7 +104,7 @@
 
 	  <footer class="footer">
 		<a href="http://www.EvaristoGZ.com" id="evaristo-gz" target="_blank"><span>Evaristo GZ</span></a>
-		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
+		<div id="legal"><a href="aviso-legal">Aviso Legal</a> | <a href="aviso-de-cookies">Aviso de cookies</a></div>
 	  	<div class="clear"></div>
 	  </footer>
 	</div> <!-- /container -->			

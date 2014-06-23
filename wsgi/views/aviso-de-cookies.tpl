@@ -63,11 +63,11 @@
 			<p>Desde abril de 2012, para instalar cookies en los terminales de los usuarios (ya sea ordenador, dispositivos móvil u otros) es necesario informar sobre el uso de cookies y obtener el consentimiento de los usuarios, salvo en determinados casos. Es por ello por lo que la mayoría de los sitios web que están actualizados muestran un aviso de uso de cookies.</p>
 			<p>En un primer momento, se debía de obtener el consentimiento explícito de los usuarios pero esto suponía un problema para los desarrolladores web. Como ya he comentado, solo el mostrar el aviso de cookies debía de instalar ya de por sí una cookie, cuando ésta fuera aceptada esa cookie guardaría el consentimiento del usuario. Por otra parte, estaba la barrera de no poder utilizar una cookie para analítica web como, por ejemplo, Google Analytics, hasta que el usuario no pulsase el botón de consentimiento y por lo tanto haciendo imposible tener una analítica real de los visitantes de un sitio web. Era una Ley que ni los mismos sitios web pertenecientes al Gobierno eran capaces de cumplir en ocasiones.</p>
 			<p>Más tarde, la Ley se reformó: los usuarios debían de ser informados pero no era necesario el consentimiento explícito. Ahora, si un usuario continúa navegando por nuestra sitio web se considera que acepta su uso.</p>
-			<p>Puede consultar más información sobre la Ley de Cookies en la "<a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf" target="_blank">Guía sobre el uso de las cookies</a>" de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
+			<p>Puede consultar más información sobre la Ley de Cookies en la <a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf" target="_blank">"Guía sobre el uso de las cookies"</a> de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
 			<h1><a href="#que-tipos-de-cookies-utiliza-tuitgenerator" name="que-tipos-de-cookies-utiliza-tuitgenerator">¿Qué tipos de cookies utiliza tuitgenerator?</a></h1>
 			<p>tuitgenerator utiliza las siguientes cookies, ninguna de ellas recoge información personal como son nombres y apellidos, números de teléfono, direcciones postales...</p>
 			<ul>
-				<li><b>Cookies de análisis</b>: _ga, una cookie gestionada por la herramienta de analítica web Google Analytics. Esta cookie tiene como fin el análisis estadístico permitiendo cuantificar el número de visitantes, el idioma de los visitantes, número de nuevos usuarios, tiempo de visita, navegadores y sistemas operativos utilizados, etc.</li>
+				<li><b>Cookies de análisis</b>: _ga, una cookie gestionada por la herramienta de analítica web <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank">Google Analytics</a>. Esta cookie tiene como fin el análisis estadístico permitiendo cuantificar el número de visitantes, el idioma de los visitantes, número de nuevos usuarios, tiempo de visita, navegadores y sistemas operativos utilizados, etc.</li>
 				<li><b>Cookies propias</b>: cb-enabled, es una cookie generada por el plugin jQuery CookieBar cuyo fin es establecer el estado del consentimiento del uso de cookies por parte del usuario. Con ella, permite que se muestre o no la barra de aviso de uso de cookies según la condición del usuario visitante.</li>
 			</ul>
 			<h1><a href="#como-administrar-las-cookies" name="como-administrar-las-cookies">¿Cómo administrar las cookies?</a></h1>
@@ -85,7 +85,7 @@
 
 	  <footer class="footer">
 		<a href="http://www.EvaristoGZ.com" id="evaristo-gz" target="_blank"><span>Evaristo GZ</span></a>
-		<div id="legal"><a href="aviso-legal">Aviso Legal y Política de Protección de Datos</a></div>
+		<div id="legal"><a href="aviso-legal">Aviso Legal</a> | <a href="aviso-de-cookies">Aviso de cookies</a></div>
 	  	<div class="clear"></div>
 	  </footer>
 	</div> <!-- /container -->			
