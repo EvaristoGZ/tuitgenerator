@@ -63,7 +63,7 @@
 			<p>Desde abril de 2012, para instalar cookies en los terminales de los usuarios (ya sea ordenador, dispositivos móvil u otros) es necesario informar sobre el uso de cookies y obtener el consentimiento de los usuarios, salvo en determinados casos. Es por ello por lo que la mayoría de los sitios web que están actualizados muestran un aviso de uso de cookies.</p>
 			<p>En un primer momento, se debía de obtener el consentimiento explícito de los usuarios pero esto suponía un problema para los desarrolladores web. Como ya he comentado, solo el mostrar el aviso de cookies debía de instalar ya de por sí una cookie, cuando ésta fuera aceptada esa cookie guardaría el consentimiento del usuario. Por otra parte, estaba la barrera de no poder utilizar una cookie para analítica web como, por ejemplo, Google Analytics, hasta que el usuario no pulsase el botón de consentimiento y por lo tanto haciendo imposible tener una analítica real de los visitantes de un sitio web. Era una Ley que ni los mismos sitios web pertenecientes al Gobierno eran capaces de cumplir en ocasiones.</p>
 			<p>Más tarde, la Ley se reformó: los usuarios debían de ser informados pero no era necesario el consentimiento explícito. Ahora, si un usuario continúa navegando por nuestra sitio web se considera que acepta su uso.</p>
-			<p>Puede consultar más información sobre la Ley de Cookies en la "<a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf">Guía sobre el uso de las cookies</a>" de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
+			<p>Puede consultar más información sobre la Ley de Cookies en la "<a href="http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/common/Guias/Guia_Cookies.pdf" target="_blank">Guía sobre el uso de las cookies</a>" de la <abbr title="Agencia Española de Protección de Datos">AGPD</abbr>.</p>
 			<h1><a href="#que-tipos-de-cookies-utiliza-tuitgenerator" name="que-tipos-de-cookies-utiliza-tuitgenerator">¿Qué tipos de cookies utiliza tuitgenerator?</a></h1>
 			<p>tuitgenerator utiliza las siguientes cookies, ninguna de ellas recoge información personal como son nombres y apellidos, números de teléfono, direcciones postales...</p>
 			<ul>
@@ -73,11 +73,11 @@
 			<h1><a href="#como-administrar-las-cookies" name="como-administrar-las-cookies">¿Cómo administrar las cookies?</a></h1>
 			<p>Puede permitir, conocer, bloquear o eliminar las ocokies instaladas en tu equipo mediante la configuración de las opciones del navegador web que utiliza. Puede encontrar información sobre cómo hacerlo en los sitios web de los principales navegadores</p>
 			<ul>
-				<li>Administrar cookies y datos de sitios en <a href="https://support.google.com/chrome/answer/95647?hl=es">Google Chrome</a></li>
-				<li>Administrar cookies y datos de sitios en <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">Mozilla Firefox</a></li>
-				<li>Administrar cookies y datos de sitios en <a href="http://windows.microsoft.com/es-es/windows7/block-enable-or-allow-cookies">Internet Explorer</a></li>
-				<li>Administrar cookies y datos de sitios en <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES&locale=es_ES">Safari</a></li>
-				<li>Administrar cookies y datos de sitios en <a href="http://help.opera.com/Mac/12.10/en/cookies.html">Opera</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank">Google Chrome</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-" target="_blank">Mozilla Firefox</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://windows.microsoft.com/es-es/windows7/block-enable-or-allow-cookies" target="_blank">Internet Explorer</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES&locale=es_ES" target="_blank">Safari</a></li>
+				<li>Administrar cookies y datos de sitios en <a href="http://help.opera.com/Mac/12.10/en/cookies.html" target="_blank">Opera</a></li>
 			</ul>
 		</div>
 
