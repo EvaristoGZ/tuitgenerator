@@ -86,7 +86,8 @@ footer:hover{opacity:1}
 #legal{float:right;margin:8px 0}
 #legal a{color:#4b4b4b}
 .logotipo span,#copiar-link span,#evaristo-gz span{display:none}
-#error-img, .header-img{display:block;margin:0 auto}
+.header-img{display:block;margin:24px auto}
+#error-img{display:block;margin:0 auto}
 #error{text-align:center;font-size:18px !important}
 #error a{color:#333}
 #cookie-bar{background:#E1E1E1;line-height:24px;color:#000;text-align:center;padding:3px 0}
