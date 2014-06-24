@@ -79,7 +79,7 @@ footer:hover{opacity:1}
 #legal{float:right;margin:8px 0}
 #legal a{color:#4b4b4b}
 .logotipo span,#copiar-link span,#evaristo-gz span{display:none}
-#error-img{display:block;margin:0 auto}
+#error-img, .header-img{display:block;margin:0 auto}
 #error{text-align:center;font-size:18px !important}
 #error a{color:#333}
 #cookie-bar{background:#E1E1E1;line-height:24px;color:#000;text-align:center;padding:3px 0}
@@ -102,5 +102,5 @@ footer:hover{opacity:1}
 	footer{opacity:1}
 	#evaristo-gz{float:none;display:block;margin:0 auto}
 	#legal{width:100%;text-align:center}
-	#error-img{width:100%;height:auto;max-width:638px}
+	#error-img,.header-img{width:100%;height:auto;max-width:638px}
 }
