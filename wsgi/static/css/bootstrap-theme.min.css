@@ -79,7 +79,7 @@ a:hover{text-decoration:none}
 .estatica p{text-align:justify}
 .col-md-3 h4 a{color:#333}
 .col-md-3 h4 a:hover{color:#00A7FF}
-#foto{border:3px solid #FFF;box-shadow:1px 1px 0px #AAA}
+#foto{border:3px solid #FFF;box-shadow:1px 1px 0px #AAA;margin:3px 10px 0 0}
 footer{opacity:.5;transition:all .4s ease-in-out}
 footer:hover{opacity:1}
 #evaristo-gz{background:url(/static/img/Evaristo-GZ.png) no-repeat;width:223px;height:38px;float:left}
