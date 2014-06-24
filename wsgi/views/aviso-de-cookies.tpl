@@ -56,6 +56,7 @@
 
 	<div class="container">
 		<div class="estatica">
+			<img src="static/img/aviso-de-cookies.jpg" class="header-img" alt="">
 			<h1><a href="#que-son-las-cookies" name="que-son-las-cookies">¿Qué son las cookies?</a></h1>
 			<p>En informática, las "cookies" son unos pequeños ficheros enviados por un sitio web que a su vez son descargados y almacenados en el navegador web del usuario. De esta manera las cookies permiten, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de ese equipo.</p>
 			<p>A día de hoy, resulta prácticamente imposible encontrar un sitio web que no haga uso de cookies. Sus usos pueden ser la implementación de un sistema de analítica web, mantener los productos de un carrito de la compra tras cerrar la página web, mantener abierta una sesión de usuario durante un determinado tiempo en dicho sitio web... De hecho, el mismo mismo aviso de que esta web está utilizando cookies hace uso de una de ellas, para guardar tu confirmación cuando así sea.</p>
