@@ -85,18 +85,17 @@
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
 		  <p><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF">Información del perfil de Twitter de @EvaristoGZ</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
-		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="#">aquí</a>.</p>
+		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="sobre-el-proyecto#como-optimizarlo">aquí</a>.</p>
 		</div>
 		<div class="col-md-4">
 		  <h2>Sobre el proyecto</h2>
 		  <ul id="menu-informacion">
 			  <li><a href="sobre-el-proyecto#para-que-sirve">¿Para qué sirve?</a></li>
 			  <li><a href="sobre-el-proyecto#como-funciona">¿Cómo funciona?</a></li>
-			  <li><a href="sobre-el-proyecto#como-personalizarlo">¿Cómo personalizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#como-optimizarlo">¿Cómo optimizarlo?</a></li>
 			  <li><a href="sobre-el-proyecto#que-es-web-intents">¿Qué es Web Intents?</a></li>
 			  <li><a href="sobre-el-proyecto#quien-es-el-autor">¿Quién es el autor?</a></li>
 		   </ul>
-		  <p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
 	   </div>
 	  </div>
 

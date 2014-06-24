@@ -95,11 +95,10 @@
 		  <ul id="menu-informacion">
 			  <li><a href="sobre-el-proyecto#para-que-sirve">¿Para qué sirve?</a></li>
 			  <li><a href="sobre-el-proyecto#como-funciona">¿Cómo funciona?</a></li>
-			  <li><a href="sobre-el-proyecto#como-personalizarlo">¿Cómo personalizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#como-optimizarlo">¿Cómo optimizarlo?</a></li>
 			  <li><a href="sobre-el-proyecto#que-es-web-intents">¿Qué es Web Intents?</a></li>
 			  <li><a href="sobre-el-proyecto#quien-es-el-autor">¿Quién es el autor?</a></li>
 		   </ul>
-		  <p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
 	   </div>
 	  </div>
 
