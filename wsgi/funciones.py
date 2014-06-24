@@ -36,9 +36,9 @@ def retweet(text,tweet_id,related):
 	if len(tweet_id) != 0:
 		if 'status' in tweet_id:
 			IDtweet = tweet_id.split("/")
-			tweet_id = "&tweet_id="+IDtweet[5]
+			tweet_id = "tweet_id="+IDtweet[5]
 		else:
-			tweet_id = "&tweet_id="+tweet_id
+			tweet_id = "tweet_id="+tweet_id
 	if len(related) != 0:
 		related = related.replace('@','')
 		related = related.replace(' ',',')
@@ -53,9 +53,9 @@ def favorite(text,tweet_id,related):
 	if len(tweet_id) != 0:
 		if 'status' in tweet_id:
 			IDtweet = tweet_id.split("/")
-			tweet_id = "&tweet_id="+IDtweet[5]
+			tweet_id = "tweet_id="+IDtweet[5]
 		else:
-			tweet_id = "&tweet_id="+tweet_id
+			tweet_id = "tweet_id="+tweet_id
 	if len(related) != 0:
 		related = related.replace('@','')
 		related = related.replace(' ',',')
