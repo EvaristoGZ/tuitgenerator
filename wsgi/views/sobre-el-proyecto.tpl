@@ -118,6 +118,7 @@
 			<p>Queriendo cubrir otras de mis inquietudes me inscribí en la 18ª Convocatoria del Curso de Diseño Web Profesional impartido por la consultora web Xtrared. Allí aprendí y reforcé algunos conocimientos que adquirí sobre HTML y CSS anteriormente.</p>
 			<p>A día de hoy estudio el Grado Superior de Administración de Sistemas Informático en Red en el IES Gonzalo Nazareno. Es aquí donde, ante la necesidad de crear un proyecto para el módulo de Lenguaje de Marcas el cual cumpliera varios requisitos (entre ellos el desarrollo con Python), nace tuitgenerator.</p>
 			<p>Si deseas ponerte en contacto conmigo puedes hacerlo mediante: <b>contacto</b><img src="static/img/simboloA.png" alt="-SÍMBOLO ANTISPAM-" title="-SÍMBOLO ANTISPAM-"><b>evaristogz.com</b> o <img src="static/img/simboloA.png" alt="-SÍMBOLO ANTISPAM-" title="-SÍMBOLO ANTISPAM-"><b>EvaristoGZ</b></p>
+			<div class="clear"></div>
 		</div>
 
 	  <hr>
