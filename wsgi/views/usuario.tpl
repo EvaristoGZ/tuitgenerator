@@ -90,13 +90,13 @@
 		<div class="col-md-4">
 		  <h2>Sobre el proyecto</h2>
 		  <ul id="menu-informacion">
-			  <li><a href="sobre-el-proyecto#para-que-sirve">¿Para qué sirve?</a></li>
-			  <li><a href="sobre-el-proyecto#como-funciona">¿Cómo funciona?</a></li>
-			  <li><a href="sobre-el-proyecto#como-optimizarlo">¿Cómo optimizarlo?</a></li>
-			  <li><a href="sobre-el-proyecto#que-es-web-intents">¿Qué es Web Intents?</a></li>
-			  <li><a href="sobre-el-proyecto#quien-es-el-autor">¿Quién es el autor?</a></li>
+			  <li><a href="sobre-el-proyecto#para-que-sirve"><span class="glyphicon glyphicon-info-sign"></span> ¿Para qué sirve?</a></li>
+			  <li><a href="sobre-el-proyecto#como-funciona"><span class="glyphicon glyphicon-cog"></span> ¿Cómo funciona?</a></li>
+			  <li><a href="sobre-el-proyecto#como-optimizarlo"><span class="glyphicon glyphicon-check"></span> ¿Cómo optimizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#que-es-web-intents"><span class="glyphicon glyphicon-comment"></span> ¿Qué es Web Intents?</a></li>
+			  <li><a href="sobre-el-proyecto#quien-es-el-autor"><span class="glyphicon glyphicon-user"></span> ¿Quién es el autor?</a></li>
 		   </ul>
-	   </div>
+		</div>
 	  </div>
 
 	  <hr>

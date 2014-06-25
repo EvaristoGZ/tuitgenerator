@@ -102,14 +102,15 @@ footer:hover{opacity:1}
 #cookie-bar .cb-policy:hover{background:#0055DD;color:#FFF}
 @media (max-width:768px){
 	body{padding-top:0}
+	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.navbar-fixed-top,.navbar-fixed-bottom{position:static}
 	.navbar{margin-bottom:0}
-	.logotipo{background:url(/static/img/tuitgenerator-logo-min.png) no-repeat;float:left;margin:10px 10px 10px 10px;width:220px;height:29px}
 	.jumbotron{padding:0}
+	.header-img{display:none}
+	.col-md-4 p{text-align:justify}
+	#error-img{width:100%;height:auto;max-width:638px}
 	#copiar-link{display:none}
 	footer{opacity:1}
 	#evaristo-gz{float:none;display:block;margin:0 auto}
 	#legal{width:100%;text-align:center}
-	#error-img{width:100%;height:auto;max-width:638px}
-	.header-img{display:none}
 }

@@ -57,7 +57,7 @@
 	<div class="container">
 		<div class="estatica">
 			<img src="static/img/sobre-el-proyecto.png" class="header-img" alt="">
-			<h1><a href="#para-que-sirve" name="para-que-sirve">¿Para qué sirve?</a></h1>
+			<h1><a href="#para-que-sirve" name="para-que-sirve"><span class="glyphicon glyphicon-info-sign"></span> ¿Para qué sirve?</a></h1>
 			<p>tuitgenerator es una herramienta online que tiene como objetivo facilitar la interacción de contenido personalizado mediante la red social Twitter desde otros medios. Tras rellenar los campos del formulario se genera una dirección URL y un código HTML que puede incrustar directamente en páginas webs, blogs o emails. La característica de este método es que no es necesario salir de la página, ni tampoco autorizar una nueva aplicación para realizar una simple interacción. Los beneficios pueden ser muchos, uno de ellos es generar mayor tráfico hacia su página web.</p>
 			<p>Desde esta web puede generar todas las interacciones que Twitter permite mediante Web Intents, que son las siguientes:</p>
 			<ul>
@@ -74,13 +74,13 @@
 			<div class="col-md-3"><h4><a href="perfil" title="Pulsa para ir a la página de mostrar información de un perfil">Mostrar información de un perfil</a></h4><a href="https://twitter.com/intent/user?&screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF">Información del perfil de Twitter de @EvaristoGZ</a></div>
 			<div class="clear"></div>
 
-			<h1><a href="#como-funciona" name="como-funciona">¿Cómo funciona?</a></h1>
+			<h1><a href="#como-funciona" name="como-funciona"><span class="glyphicon glyphicon-cog"></span> ¿Cómo funciona?</a></h1>
 			<p>Esta herramienta está desarrollada con el lenguaje de programación Python, hace uso del framework web Bottle y se ejecuta en los servidores gratuitos de OpenShift.</p>
 			<p>El método que utiliza es Web Intents de Twitter, un método del cual Twitter ofrece documentación en su sitio web para desarrolladores y que tiene como fin crear, a través de parámetros, una dirección URL que permita interactuar al usuario final.</p>
 			<p>La forma en la que se genera la dirección URL es simple: se parte de una dirección URL base (diferente para cada interacción) y mediante un formulario se solicita los distintos parámetros, los cuales están asociados a una variable. Al enviar, se comprueba campo a campo si es distinto a 0, en caso de ser así se concatena a la dirección URL base el parámetro junto con el valor de ese campo del formulario.</p>
 			<p>Si lo desea, puede ver el código íntegro y listo para desplegar en Openshift en el <a href="https://github.com/EvaristoGZ/tuitgenerator" title="Repositorio de Github tuitgenerator" target="_blank">repositorio de Github</a></p>
 			
-			<h1><a href="#como-optimizarlo" name="como-optimizarlo">¿Cómo optimizarlo?</a></h1>
+			<h1><a href="#como-optimizarlo" name="como-optimizarlo"><span class="glyphicon glyphicon-check"></span> ¿Cómo optimizarlo?</a></h1>
 			<p>Personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado o "inline", listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.</p>
 			<p>Las ventajas de hacerlo son:</p>
 			<ul>
@@ -107,12 +107,12 @@
 			.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;}<br></code></div>
 			<p>Estos iconos los puedes encontrar en <a href="https://dev.twitter.com/docs/image-resources" title="Image resources" target="_blank">"Image resources"</a> de la documentación oficial de Twitter.</p>
 
-			<h1><a href="#que-es-web-intents" name="que-es-web-intents">¿Qué es Web Intents?</a></h1>
+			<h1><a href="#que-es-web-intents" name="que-es-web-intents"><span class="glyphicon glyphicon-comment"></span> ¿Qué es Web Intents?</a></h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra erat vel vulputate tincidunt. Nam congue sed augue vel tempus. Vestibulum at consequat lectus. Duis tempus leo at diam vehicula, ac malesuada magna vulputate. Nullam tempus risus sit amet feugiat pellentesque. Maecenas dapibus rhoncus fermentum. Suspendisse rutrum urna sem, at convallis dui pharetra in. Vivamus elit libero, iaculis nec orci id, placerat pharetra augue. Donec eu mi eget lectus volutpat fermentum eget ac est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed imperdiet nec sem quis pulvinar. Nulla consequat tempus porta. Aliquam ac ante ac arcu sodales dignissim. Donec rutrum mollis augue, at consequat odio. Etiam fermentum arcu sapien, vel aliquam augue aliquet pharetra. Pellentesque placerat laoreet sem, ac rutrum massa pulvinar quis.</p>
 
 			<p>Nullam sagittis accumsan condimentum. Cras ultrices volutpat dui, at molestie sem laoreet non. Curabitur massa ipsum, consequat ac orci a, feugiat venenatis orci. Nullam venenatis ultricies semper. Fusce interdum pharetra pellentesque. Pellentesque pretium suscipit risus nec euismod. Vestibulum feugiat sapien quam, et posuere elit semper et. Etiam ut odio et ante rutrum elementum non quis risus. Integer tincidunt interdum turpis at pharetra. Aliquam convallis erat vulputate commodo posuere. Ut dignissim mauris et purus laoreet commodo. Aenean ultricies diam vel elementum pellentesque. Nullam commodo, neque vel porta dapibus, libero libero volutpat erat, ac viverra purus arcu fermentum ante. Curabitur feugiat enim ut nisl luctus, eget placerat urna venenatis. Vestibulum porta velit libero, at egestas nibh auctor nec. Sed ullamcorper felis orci, eu condimentum sem dignissim eget.</p>
 
-			<h1><a href="#quien-es-el-autor" name="quien-es-el-autor">¿Quién es el autor?</a></h1>
+			<h1><a href="#quien-es-el-autor" name="quien-es-el-autor"><span class="glyphicon glyphicon-user"></span> ¿Quién es el autor?</a></h1>
 			<img id="foto" class="izq"src="static/img/foto.jpg" alt="Fotografía del autor"><p>Mi nombre es <a href="http://www.evaristogz.com/" title="EvaristoGZ.com" target="_blank">Evaristo García</a> y soy el autor de esta herramienta web. Nací en marzo de 1992 en la localidad sevillana de Dos Hermanas.</p>
 			<p>Desde pequeño la informática, la tecnología e internet despertaron curiosidad en mi. De tal manera que, tras terminar la Educación Secundaria Obligatoria, decidí formarme profesionalmente como Técnico de Sistemas Microinformáticos y Redes en el IES Gonzalo Nazareno de Dos Hermanas.</p>
 			<p>Queriendo cubrir otras de mis inquietudes me inscribí en la 18ª Convocatoria del Curso de Diseño Web Profesional impartido por la consultora web Xtrared. Allí aprendí y reforcé algunos conocimientos que adquirí sobre HTML y CSS anteriormente.</p>
