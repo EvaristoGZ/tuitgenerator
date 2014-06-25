@@ -77,7 +77,7 @@
 			<h1><a href="#uso-de-cookies" name="uso-de-cookies">Uso de cookies</a></h1>
 			<p>tuitgenerator hace uso de cookies para mejorar la experiencia del usuario.</p>
 			<p>En informática, las "cookies" son unos pequeños ficheros enviados por un sitio web que a su vez son descargados y almacenados en el navegador web del usuario. De esta manera las cookies permiten, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de ese equipo.</p>
-			<p>Si desea saber más sobre el uso de cookies en nuestro sitio web puede visitar <a href="aviso-de-cookies" target="_blank">"Aviso de cookies"</a>.</p>
+			<p>Si desea saber más sobre el uso de cookies en nuestro sitio web puede visitar <a href="aviso-de-cookies">"Aviso de cookies"</a>.</p>
 
 			<h1><a href="#modificacion" name="modificacion">Modificación</a></h1>
 			<p>El Propietario se reserva el derecho de efectuar las modificaciones que considere oportunas en los textos de Aviso Legal y Política de Protección de Datos de la Web, pudiendo cambiar, suprimir o añadir el contenido de estos.</p>
