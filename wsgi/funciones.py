@@ -5,7 +5,7 @@ def tweet(text,url,via,in_reply_to,hashtags,related):
 	link = "https://twitter.com/intent/tweet?"
 	if len(text) != 0:
 		texto = text
-		text = "&text="+urllib.quote(text)
+		text = "text="+urllib.quote(text)
 	if len(url) != 0:
 		url = "&url="+urllib.quote(url)
 	if len(in_reply_to) != 0:
