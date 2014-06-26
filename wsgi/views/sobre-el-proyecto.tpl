@@ -82,7 +82,7 @@
 			<p>Si lo desea, puede ver el código íntegro y listo para desplegar en Openshift en el <a href="https://github.com/EvaristoGZ/tuitgenerator" title="Repositorio de Github tuitgenerator" target="_blank">repositorio de Github</a>.</p>
 			
 			<h1><a href="#como-optimizarlo" name="como-optimizarlo"><span class="glyphicon glyphicon-check"></span> ¿Cómo optimizarlo?</a></h1>
-			<p>Personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado o "inline", listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.</p>
+			<p>Optimizar y personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado o "inline", listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.</p>
 			<p>Las ventajas de hacerlo son:</p>
 			<ul>
 				<li><b>Opmitiza la carga</b>. El navegador web descargará una vez la hoja de estilos y la mantedrá en caché, no siendo necesario descargar el código referente al estilo cada vez que se acceda a la página con código incrustado.</li>
@@ -102,10 +102,10 @@
 			<p>Mientras tanto, en el código HTML reemplazaríamos todo el atributo <i>style</i> por <i>class="tuit"</i>.</p>
 			<div id="code"><code>&lt;a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" <b>class="tuit"</b>&gt;"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.&lt;/a&gt;</code></div>
 			<p>Para opmitizar más aún el código puede subir a su servidor los iconos de cada tipo de interacción que se especifica en la propiedad <i>background</i>. De esta manera ahorra una petición a otro servidor. Cada tipo de interacción debe tener una clase en su hoja de estilos quedando así:</p>
-			<div id="code"><code>.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px;	color:#00A7FF;}<br>
-			.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;}<br>
-			.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;}<br>
-			.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;}</code></div>
+			<div id="code"><code>.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}<br>
+			.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}<br>
+			.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}<br>
+			.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}</code></div>
 			<p>Estos iconos los puedes encontrar en <a href="https://dev.twitter.com/docs/image-resources" title="Image resources" target="_blank">"Image resources"</a> de la documentación oficial de Twitter.</p>
 			<p>Por último, si desea que la interacción aparezca en una ventana nueva con un tamaño de unos 565x590 pixels (como el que aparece en los ejemplos) debe añadir una línea para cargar el fichero widgets.js desde los servidores de Twitter. Esta línea puede incluirla donde desee.</p>
 			<div id="code"><code>&lt;script type="text/javascript" src="//platform.twitter.com/widgets.js"&gt;&lt;/script&gt;</code></div>
