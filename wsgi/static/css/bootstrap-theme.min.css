@@ -55,10 +55,6 @@ a:hover{text-decoration:none}
 .der{float:right}
 ::selection{background:#00A7FF;color:#005285}
 ::-moz-selection{background:#00A7FF;color:#005285}
-.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
-.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
-.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
-.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
 .logotipo{background:url(/static/img/tuitgenerator-logo.png) no-repeat;float:left;margin:10px 10px 10px 0;width:348px;height:50px}
 .navbar-nav li{font-family:BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;float:left;font-size:20px;line-height:0;text-align:center}
 .navbar-nav li:hover,.navbar-nav:focus{text-decoration:none;background:#00A7FF !important}
@@ -87,6 +83,26 @@ footer:hover{opacity:1}
 #legal a{color:#4b4b4b}
 .logotipo span,#copiar-link span,#evaristo-gz span{display:none}
 .header-img{display:block;margin:24px auto}
+.tuit-1{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
+.retuit-1{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
+.favorito-1{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
+.usuario-1{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
+.tuitgenerator-2{background:url(/static/img/twitter.png)no-repeat right center #EEE;position:relative;font-familyArial,sans-serif;font-size:14px;line-height:1.42857;padding:10px;margin:5px 10px;min-height:60px;border-radius:3px}
+.tuitgenerator-2 p{margin:0}
+.tuit-2,.retuit-2,.favorito-2,.perfil-2{float:left;margin:5px 5px 0 0;width:59px;height:50px}
+.tuit-2 span,.favorito-2 span,.retuit-2 span,.perfil-2 span{display:none}
+.tuit-2{background:url(/static/img/tuit.png)no-repeat}
+.retuit-2{background:url(/static/img/retuit.png)no-repeat}
+.favorito-2{background:url(/static/img/favorito.png)no-repeat}
+.usuario-2{background:url(/static/img/usuario.png)no-repeat}
+.tuitgenerator-3{;background:#EEE;position:relative;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857;padding:10px;margin:5px 10px;min-height:60px;border-radius:3px;float:right}
+.tuitgenerator-3 .tg-ribbon{text-align:center;position:relative;margin:10px -20px 0;padding:5px 0;background-color:#5c5c5c;background-image:linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));-moz-box-shadow:0 -2px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 -2px 0 rgba(0,0,0,.3);box-shadow:0 -2px 0 rgba(0,0,0,.3)}
+.tuitgenerator-3 .tg-ribbon:hover{background-color:#5C5C5C;background-image:linear-gradient(rgba(0,82,133,1),rgba(0,167,255,1));-moz-box-shadow:0 -2px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 -2px 0 rgba(0,0,0,.3);box-shadow:0 -2px 0 rgba(0,0,0,.3)}
+.tuitgenerator-3 a{text-decoration:none}
+.tuitgenerator-3 .tg-ribbon{color:#FFF;text-transform:uppercase;text-shadow:0 1px rgba(0,0,0,.8);text-decoration:none;font-weight:bold}
+.tuitgenerator-3 .tg-ribbon:before,.tuitgenerator-3 .tg-ribbon:after{content:'';position:absolute;border:solid transparent;top:-12px}
+.tuitgenerator-3 .tg-ribbon:before{border-width:10px 10px 0 0;border-right-color:#222;left:0}
+.tuitgenerator-3 .tg-ribbon:after{border-width:10px 0 0 10px;border-left-color:#222;right:0}
 #error-img{display:block;margin:0 auto}
 #error{text-align:center;font-size:18px !important}
 #error a{color:#333}

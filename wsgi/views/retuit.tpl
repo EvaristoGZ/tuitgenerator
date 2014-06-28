@@ -86,7 +86,7 @@
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/retweet?tweet_id=470825491642204160&related=EvaristoGZ,tuitgenerator" title="Click para retuitear." target="_blank" style="background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF">Comparte con tus seguidores estos ejercicios rutinarios para evitar molestias musculares.</a></p>
+		  <p><a href="https://twitter.com/intent/retweet?tweet_id=440808384619905025&related=EvaristoGZ,tuitgenerator" title="Click para retuitear." target="_blank" class="retuit-1">Googlea tu nombre, el 80% de los entrevistadores lo hacen antes de concederte una entrevista de trabajo.</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="sobre-el-proyecto#como-optimizarlo">aquí</a>.</p>
 		</div>
@@ -96,7 +96,9 @@
 			  <li><a href="sobre-el-proyecto#para-que-sirve"><span class="glyphicon glyphicon-info-sign"></span> ¿Para qué sirve?</a></li>
 			  <li><a href="sobre-el-proyecto#como-funciona"><span class="glyphicon glyphicon-cog"></span> ¿Cómo funciona?</a></li>
 			  <li><a href="sobre-el-proyecto#como-optimizarlo"><span class="glyphicon glyphicon-check"></span> ¿Cómo optimizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#como-personalizarlo"><span class="glyphicon glyphicon-leaf"></span> ¿Cómo personalizarlo?</a></li>
 			  <li><a href="sobre-el-proyecto#que-es-web-intents"><span class="glyphicon glyphicon-comment"></span> ¿Qué es Web Intents?</a></li>
+			  <li><a href="sobre-el-proyecto#quien-lo-utiliza"><span class="glyphicon glyphicon-globe"></span> ¿Quién lo utiliza?</a></li>
 			  <li><a href="sobre-el-proyecto#quien-es-el-autor"><span class="glyphicon glyphicon-user"></span> ¿Quién es el autor?</a></li>
 		   </ul>
 		</div>

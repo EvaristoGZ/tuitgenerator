@@ -329,8 +329,11 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 .glyphicon-cog:before{content:"\e019"}
 .glyphicon-check:before{content:"\e067"}
 .glyphicon-info-sign:before{content:"\e086"}
+.glyphicon-leaf:before{content:"\e103"}
 .glyphicon-comment:before{content:"\e111"}
 .glyphicon-user:before{content:"\e008"}
+.glyphicon-globe:before{content:"\e135"}
+}
 .caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}
 .dropdown{position:relative}
 .dropdown-toggle:focus{outline:0}

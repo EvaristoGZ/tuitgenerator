@@ -78,12 +78,12 @@
 		<div class="col-md-4">
 		  <h2>Código HTML</h2>
 		  <p>Este es el código HTML generado, listo para pegar en su página web. El CSS, que aplica estilo al enlace, está incrustado en el mismo código HTML.</p>
-		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para ver la información del perfil de Twitter." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
+		  <div id="code"><code>&lt;a href="{{link or 'Dirección URL'}}" title="Click para mostrar la información del perfil de usuario" target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF"&gt;{{texto or 'Texto a enlazar'}}&lt;/a&gt;</code></div>
 		</div>
 		<div class="col-md-4">
 		<h2>Ejemplo de integración</h2>
 		  <p>Al copiar el código HTML generado, el resultado en su página web tendría un aspecto parecido a este:</p>
-		  <p><a href="https://twitter.com/intent/user?screen_name=EvaristoGZ" title="Click para tuitear este texto." target="_blank" style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF">Información del perfil de Twitter de @EvaristoGZ</a></p>
+		  <p><a href="https://twitter.com/intent/user?screen_name=EvaristoGZ" title="Click para mostrar la información del perfil de usuario de @EvaristoGZ" target="_blank" class="usuario-1">Información del perfil de usuario de @EvaristoGZ</a></p>
 		  <p>Este aspecto puede personalizarlo por completo utilizando CSS.</p>
 		  <p>En el código HTML generado el CSS está incrustado en el mismo código pero, por motivos de optimización, es recomendable separar el HTML del CSS en archivos distintos. Lo explico y detallo <a href="sobre-el-proyecto#como-optimizarlo">aquí</a>.</p>
 		</div>
@@ -93,7 +93,9 @@
 			  <li><a href="sobre-el-proyecto#para-que-sirve"><span class="glyphicon glyphicon-info-sign"></span> ¿Para qué sirve?</a></li>
 			  <li><a href="sobre-el-proyecto#como-funciona"><span class="glyphicon glyphicon-cog"></span> ¿Cómo funciona?</a></li>
 			  <li><a href="sobre-el-proyecto#como-optimizarlo"><span class="glyphicon glyphicon-check"></span> ¿Cómo optimizarlo?</a></li>
+			  <li><a href="sobre-el-proyecto#como-personalizarlo"><span class="glyphicon glyphicon-leaf"></span> ¿Cómo personalizarlo?</a></li>
 			  <li><a href="sobre-el-proyecto#que-es-web-intents"><span class="glyphicon glyphicon-comment"></span> ¿Qué es Web Intents?</a></li>
+			  <li><a href="sobre-el-proyecto#quien-lo-utiliza"><span class="glyphicon glyphicon-globe"></span> ¿Quién lo utiliza?</a></li>
 			  <li><a href="sobre-el-proyecto#quien-es-el-autor"><span class="glyphicon glyphicon-user"></span> ¿Quién es el autor?</a></li>
 		   </ul>
 		</div>

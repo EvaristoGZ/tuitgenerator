@@ -56,6 +56,7 @@
 
 	<div class="container">
 		<div class="estatica">
+			<img src="static/img/aviso-legal.jpg" class="header-img" alt="">
 			<h1><a href="#legislacion" name="legislacion">Legislación</a></h1>
 			<p>Las condiciones generales se encuentran sometidas a la legislación y jurisdicción españolas.</p>
 			<p>Toda controversia o conflicto que se derive de las presentes condiciones generales son competencia de los Juzgados y Tribunales de Sevilla, renunciando el propio usuario al fuero que les pudiera corresponder.</p>
