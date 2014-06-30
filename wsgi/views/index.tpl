@@ -8,7 +8,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Generar un tuit - tuitgenerator, código HTML para interactuar con Twitter desde tu web</title>
 		<meta name="description" content="tuitgenerator, herramienta online que genera código HTML para interactuar con Twitter desde tu página web. Permite generar un tuit, retuit, marcar como favorito o ver información de un perfil.">
-		<meta name="google-site-verification" content="QduMY3Wg0bn0Kv0Mr4LhHSx1iAg8vI6WNnZreJhsivE" />
 		<meta name="keywords" content="tuitgenerator, twitter, social media, HTML">
 		<meta name="author" content="Evaristo GZ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
