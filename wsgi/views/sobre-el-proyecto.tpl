@@ -138,7 +138,7 @@
 			<p>Incluso podría eliminar <i>&lt;p&gt;Texto&lt;/p&gt;</i> del código HTML e introducir directamente el texto en el campo <i>Texto de la interacción (ribete)</i> consiguiendo una gran franja. Para ello recomiendo eliminar de la hoja de estilos la propiedad <i>text-transform:uppercase</i> de <i>.tuitgenerator .tg-ribbon</i> para evitar la transformación del texto a mayúsculas.</p>
 			<p>Aquí un ejemplo de ambos códigos:</p>
 			<div class="centrado">
-				<div class="col-md-5 tuitgenerator-2"><a href="https://twitter.com/intent/retweet?tweet_id=470825491642204160&related=EvaristoGZ,tuitgenerator" class="retuit-2"><span>tuitgenerator</span></a><p>Comparte con tus seguidores estos ejercicios rutinarios para evitar molestias musculares.</p></div>
+				<div class="col-md-5 tuitgenerator-2"><a href="https://twitter.com/intent/retweet?tweet_id=440808384619905025&related=EvaristoGZ,tuitgenerator" class="retuit-2"><span>tuitgenerator</span></a><p>Googlea tu nombre, el 80% de los entrevistadores lo hacen antes de concederte una entrevista de trabajo.</p></div>
 				<div class="col-md-5 tuitgenerator-3"><p>La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</p><a href="https://twitter.com/intent/tweet?text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator"><p class="tg-ribbon">Tuitea esto en tu perfil de Twitter</p></a></div>
 				<div class="clear"></div>
 			</div>
