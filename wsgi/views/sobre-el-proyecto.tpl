@@ -91,7 +91,7 @@
 				<li><b>Facilidad de modificaciones</b>. Si en cualquier momento quiere cambiar la apariencia de todos sus Web Intents solo debe modificar un fichero.</li>
 				<li><b>Responsive Design</b>. Puede adaptar la apariencia de sus Web Intents según el tamaño del dispositivo en el que se visualice.</li>
 			</ul>
-			conseguir una mejor apariencia en su página web y mejorar la optimización de su página , que además influye de forma indirecta en el posicionamiento en buscadores.</p>
+			</p>
 
 			<p>Tomo como ejemplo éste código HTML para tuitear el mensaje "La inspiración existe, pero tiene que encontrarte trabajando.".</p>
 			<div id="code"><code>&lt;a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" <b>style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;"</b>&gt;"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.&lt;/a&gt;</code></div>
