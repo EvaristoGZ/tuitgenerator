@@ -83,10 +83,10 @@ footer:hover{opacity:1}
 #legal a{color:#4b4b4b}
 .logotipo span,#copiar-link span,#evaristo-gz span{display:none}
 .header-img{display:block;margin:24px auto}
-.tuit-1{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
-.retuit-1{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
-.favorito-1{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
-.usuario-1{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
+.tuit-1{background:url('https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
+.retuit-1{background:url('https://g.twimg.com/dev/documentation/image/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
+.favorito-1{background:url('https://g.twimg.com/dev/documentation/image/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px; line-height:19px;color:#00A7FF}
+.usuario-1{background:url('https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}
 .tuitgenerator-2{background:url(/static/img/twitter.png)no-repeat right center #EEE;position:relative;font-familyArial,sans-serif;font-size:14px;line-height:1.42857;padding:10px;margin:5px 10px;min-height:60px;border-radius:3px}
 .tuitgenerator-2 p{margin:0}
 .tuit-2,.retuit-2,.favorito-2,.perfil-2{float:left;margin:5px 5px 0 0;width:59px;height:50px}
