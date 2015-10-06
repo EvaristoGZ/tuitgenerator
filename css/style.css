@@ -394,7 +394,7 @@ ul.follow_icon li {
 }
 .about-desc {
 	width: 68%;
-	margin-right: 0 auto;
+	margin: 0 auto;
 	text-align: justify;
 }
 .about-desc p, .about-desc ul {
