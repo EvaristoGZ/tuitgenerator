@@ -36,6 +36,9 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	background:#fff;
 }
+strong {
+	font-weight: 700;	
+}
 .wrap{
 	width:80%;
 	margin:0 auto;
@@ -395,7 +398,7 @@ ul.follow_icon li {
 .span_1_of_about h3 {
 	color:#888;
 	font-size: 2em;
-	margin-bottom: 20px;
+	margin: 20px 0 5px 0;
 	font-family: 'bebas_neueregular';
 }
 .about-img {
@@ -406,10 +409,14 @@ ul.follow_icon li {
 	float: left;
 	margin-right: 0;
 }
-.about-desc p {
-	color: #999;
+.about-desc p, .about-desc ul {
+	color: #555;
 	font-size: 0.8125em;
 	line-height: 1.5em;
+}
+.about-desc ul li {
+	list-style-type: circle;
+	margin: 2px 0 0 16px;
 }
 .about-topgrid1 {
 	width: 29%;
