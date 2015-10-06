@@ -63,7 +63,7 @@ body{
 }
 .cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
 	color: #000;
-	background:#E4E24F;
+	background:#0091FF;
 }
 .cssmenu > ul > li > a {
 	text-transform: uppercase;
@@ -75,7 +75,7 @@ body{
 	letter-spacing: 1px;
 }
 .header{
-	background:#e4e24f;
+	background:#0091FF;
 	padding: 2% 0;
 }
 .header-text {
@@ -223,7 +223,7 @@ hr {
 	letter-spacing: -1px;
 }
 .span_1_of_4  h3 a:hover{
-	color:#E4E24F;
+	color:#0091FF;
 }
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
@@ -286,7 +286,7 @@ time {
 	margin-bottom: 8px;
 }
 .lnk {
-	color:#E4E24F;
+	color:#0091FF;
 	font-size: 1.2em;
 	line-height: 1.2;
 	font-family: 'PT Sans', sans-serif;
@@ -308,7 +308,7 @@ time {
 } 
 .btn.btn-primary {
 	box-shadow: none;
-	background: #E4E24F;
+	background: #0091FF;
 	position: relative;
 	font-size: 0.99em;
 	display: inline-block;
@@ -375,7 +375,7 @@ ul.follow_icon li {
 	font-size:0.8125em;
 }
 .copy p a{
-	color:#E4E24F;
+	color:#0091FF;
 }
 .copy p a:hover{
 	color:#fff;
@@ -538,7 +538,7 @@ ul.follow_icon li {
 	color: #999;
 }
 .comments-custom.unstyled .comments-custom_txt a:hover {
-	color:#E4E24F;
+	color:#0091FF;
 }
 .span_1_of_about1 {
 	width: 23.2%;
