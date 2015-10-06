@@ -87,14 +87,6 @@ strong {
 	font-size: 0.8125em;
 	color:#8A8803;
 }
-.header-text .phone {
-	color:#8A8803;
-	font:16px/1.2em Arial, Helvetica, sans-serif;
-	padding-left: 20px;
-	display: inline-block;
-	margin: 0;
-	background: url(../images/phone.png) left 8px no-repeat;
-}
 .banner{
 	background:#2f292b;
 	padding-bottom:2%;
@@ -391,11 +383,7 @@ ul.follow_icon li {
 	display: block;
 	float: left;
 }
-.span_1_of_about {
-	width: 73.2%;
-	margin-right: 3%;
-}
-.span_1_of_about h3 {
+.about-top h3 {
 	color:#888;
 	font-size: 2em;
 	margin: 20px 0 5px 0;
@@ -775,9 +763,6 @@ p.txt2{
 		float: none;
 		margin-right: 0;
 	}
-	.header-text .phone {
-		background: url(../images/phone.png) left 7px no-repeat;
-	}
 }
 @media (max-width:800px){
 	.wrap{
@@ -876,9 +861,6 @@ p.txt2{
 	.btn.btn-primary {
 		font-size: 0.8125em;
 	}
-	.span_1_of_about1 h3 {
-		font-size: 1.7em;
-	}
 	.list-box .numb {
 		font-size: 3em;
 	}
@@ -890,15 +872,6 @@ p.txt2{
 	}
 	.header {
 		padding:20px 0;
-	}
-	.header-text .phone {
-		background: url(../images/phone.png) left 9px no-repeat;
-	}
-	.span_1_of_about {
-		width: 100%;
-	}
-	.span_1_of_about1 {
-		width: 100%;
 	}
 	.about-topgrid1 {
 		width: 100%;
@@ -914,7 +887,7 @@ p.txt2{
 		float: none;
 		margin-left: 0;
 	}
-	.span_1_of_about h3 {
+	.about-top h3 {
 		font-size: 1.7em;
 	}
 	.about-topgrid1 h3 {
@@ -967,9 +940,6 @@ p.txt2{
 	.btn.btn-primary {
 		font-size: 0.8125em;
 	}
-	.span_1_of_about1 h3 {
-		font-size: 1.7em;
-	}
 	.list-box .numb {
 		font-size: 3em;
 	}
@@ -985,15 +955,6 @@ p.txt2{
 	.padd {
 		padding: 0 20px;
 	}
-	.header-text .phone {
-		background: url(../images/phone.png) left 9px no-repeat;
-	}
-	.span_1_of_about {
-		width: 100%;
-	}
-	.span_1_of_about1 {
-		width: 100%;
-	}
 	.about-topgrid1 {
 		width: 100%;
 		float: none;
@@ -1008,7 +969,7 @@ p.txt2{
 		float: none;
 		margin-left: 0;
 	}
-	.span_1_of_about h3 {
+	.about-top h3 {
 		font-size: 1.7em;
 	}
 	.about-topgrid1 h3 {
@@ -1064,9 +1025,6 @@ p.txt2{
 	.btn.btn-primary {
 		font-size: 0.8125em;
 	}
-	.span_1_of_about1 h3 {
-		font-size: 1.7em;
-	}
 	.list-box .numb {
 		font-size: 3em;
 	}
@@ -1082,15 +1040,6 @@ p.txt2{
 	.padd {
 		padding: 0 20px;
 	}
-	.header-text .phone {
-		background: url(../images/phone.png) left 9px no-repeat;
-	}
-	.span_1_of_about {
-		width: 100%;
-	}
-	.span_1_of_about1 {
-		width: 100%;
-	}
 	.about-topgrid1 {
 		width: 100%;
 		float: none;
@@ -1105,7 +1054,7 @@ p.txt2{
 		float: none;
 		margin-left: 0;
 	}
-	.span_1_of_about h3 {
+	.about-top h3 {
 		font-size: 1.7em;
 	}
 	.about-topgrid1 h3 {
