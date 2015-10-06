@@ -55,6 +55,9 @@ strong {
 	font-size: 6em;
 	font-family: 'bebas_neueregular';
 }
+.logo p {
+	color: #FFF;
+}
 /*--menu--*/
 .cssmenu{
 	text-align:center;
