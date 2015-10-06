@@ -38,38 +38,31 @@ Las ventajas de hacerlo son:
 *   **Responsive Design**. Puede adaptar la apariencia de sus Web Intents según el tamaño del dispositivo en el que se visualice.
 
 Tomo como ejemplo éste código HTML para tuitear el mensaje "La inspiración existe, pero tiene que encontrarte trabajando.".
-
 `<a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" **style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;"**>"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a>`
-
 Contiene un atributo llamado _style_ que a su vez contiene propiedades de CSS, que son las que aplican estilo a la etiqueta _<a>_ que realiza la función de hipervínculo. Ese es el código que debemos exportar a nuestra hoja de estilo, y si lo preferimos, editarlo para personalizar la apariencia de nuestro Web Intents.
 
 Estas propiedades quedarían declaradas en una clase de CSS con un aspecto similar al citado. Si observa las demás líneas de su hoja de estilo verás la sintáxis que sigue su documento.
-
 `.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:color:#00A7FF;}`
-
 Mientras tanto, en el código HTML reemplazaríamos todo el atributo _style_ por _class="tuit"_.
-
 `<a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" **class="tuit"**>"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a>`
-
 Para opmitizar más aún el código puede subir a su servidor los iconos de cada tipo de interacción que se especifica en la propiedad _background_. De esta manera ahorra una petición a otro servidor. Cada tipo de interacción debe tener una clase en su hoja de estilos quedando así:
-
 `.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
 .retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
 .favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
 .usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}`
-
 Estos iconos los puedes encontrar en ["Image resources"](https://dev.twitter.com/docs/image-resources "Image resources") de la documentación oficial de Twitter.
 
 Por último, si desea que la interacción aparezca en una ventana nueva con un tamaño de unos 565x590 pixels (como el que aparece en los ejemplos) debe añadir una línea para cargar el fichero widgets.js desde los servidores de Twitter. Esta línea puede incluirla donde desee.
-
 `<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>`
-
 ### ¿Qué es Web Intents?
 
 En marzo de 2011, Twitter lanzó Web Intents para su interacción con los tuits y perfiles de usuario. Sus funciones: tuitear, retuitear, marcar como favorito y mostrar la información de un usuario, permiten el intercambio de información entre nuestra página web, blog o email y la red social Twitter.
 
+
 Twitter detecta de manera automática si el usuario está identificado en su plataforma y pide el inicio de sesión si actualmente no se encuentra identificado. De esta manera no hay necesidad de registrar una aplicación u obtener una clave de API para realizar estas interacciones, siendo más sencillo de implementar y de utilizar para el usuario final.
 
+
 Meses más tarde, Mozilla y Google lanzó una iniciativa para conectar aplicaciones web entre sí. La idea de Web Intents es permitir la integración entre aplicaciones web para que éstas puedan compartir datos de unas a otras ofreciendo una mayor comodidad al usuario. Un ejemplo sería si deseara tuitear una fotografía del servicio Flickr en la que los pasos a seguir serían: descargarse la fotografía, abrir la web de Twitter, adjuntar la fotografía a un nuevo tuit y enviarlo. Mientras que con Web Intents pulsaría sobre un botón o enlace y en una nueva ventana confirmaría esa interacción.
+
 
 Puede leer más sobre Web Intents en la [documentación sobre Web Intents en W3C](http://www.w3.org/TR/web-intents/ "Información sobre Web Intents en W3C") o en la [documentación de Web Intents en Twitter](https://dev.twitter.com/docs/intents "Información sobre Web Intents en Twitter").
