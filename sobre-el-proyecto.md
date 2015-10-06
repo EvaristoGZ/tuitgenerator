@@ -2,7 +2,7 @@
 layout: about
 title: Sobre el proyecto - tuitgenerator
 footer: Esta es una página de prueba como práctica para el módulo "Implantación de Aplicaciones Web" de 2º de Administración de Sistemas Informáticos y Redes.
-imagen: logo.jpg
+imagen: logo.png
 ---
 
 ### ¿Para qué sirve?
