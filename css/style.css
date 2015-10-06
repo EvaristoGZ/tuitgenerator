@@ -394,13 +394,14 @@ ul.follow_icon li {
 }
 .about-desc {
 	width: 68%;
-	float: left;
-	margin-right: 0;
+	margin-right: 0 auto;
+	text-align: justify;
 }
 .about-desc p, .about-desc ul {
 	color: #555;
 	font-size: 0.8125em;
 	line-height: 1.5em;
+	margin: 10px 0 0 0;
 }
 .about-desc ul li {
 	list-style-type: circle;
