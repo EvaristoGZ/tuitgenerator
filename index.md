@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Página de prueba en Github Pages - tuitgenerator
+subtitle: Página de prueba para Implantación de Aplicaciones Web
 encabezado: ¿Qué ofrece tuitgenerator?
 enlacebox1: <a href="http://tuitgenerator.evaristogz.com/" target="_blank">Generar un tuit</a>
 box1: Genera un enlace en el que al usuario se le abrirá una nueva ventana en la que se incluirá un texto predefinido para tuitear desde su perfil de Twitter.
