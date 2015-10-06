@@ -25,35 +25,6 @@ La forma en la que se genera la dirección URL es simple: se parte de una direcc
 
 Si lo desea, puede ver el código íntegro y listo para desplegar en Openshift en el [repositorio de Github](https://github.com/EvaristoGZ/tuitgenerator "Ver tuitgenerator en GitHub").
 
-### ¿Cómo optimizarlo?
-
-Optimizar y personalizar el código HTML generado es una de las cosas que más recomiendo. El código HTML que se genera contiene CSS incrustado o "inline", listo para ser utilizado y pegarlo en su página web. Si solo va a utilizar esta herramienta una vez, quizás no merezca la pena separar el CSS del código HTML, pero si lo va a hacer más veces, conviene pararse a leer cómo personalizar el resultado.
-
-Las ventajas de hacerlo son:
-
-*   **Opmitiza la carga**. El navegador web descargará una vez la hoja de estilos y la mantedrá en caché, no siendo necesario descargar el código referente al estilo cada vez que se acceda a la página con código incrustado.
-*   **Posicionamiento en buscadores**. La opmitización web influye en la relevancia de su sitio web para los buscadores y el tiempo de carga es uno de esos factores.
-*   **Conseguir una mejor apariencia en su página web**. Puede personalizar el resultado de sus Web Intents infinitamente sin engrosar el código HTML.
-*   **Facilidad de modificaciones**. Si en cualquier momento quiere cambiar la apariencia de todos sus Web Intents solo debe modificar un fichero.
-*   **Responsive Design**. Puede adaptar la apariencia de sus Web Intents según el tamaño del dispositivo en el que se visualice.
-
-Tomo como ejemplo éste código HTML para tuitear el mensaje "La inspiración existe, pero tiene que encontrarte trabajando.".
-`<a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" **style="background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:#00A7FF;"**>"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a>`
-Contiene un atributo llamado _style_ que a su vez contiene propiedades de CSS, que son las que aplican estilo a la etiqueta _<a>_ que realiza la función de hipervínculo. Ese es el código que debemos exportar a nuestra hoja de estilo, y si lo preferimos, editarlo para personalizar la apariencia de nuestro Web Intents.
-
-Estas propiedades quedarían declaradas en una clase de CSS con un aspecto similar al citado. Si observa las demás líneas de su hoja de estilo verás la sintáxis que sigue su documento.
-`.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png') no-repeat left center; padding:1px 0 1px 18px; line-height:19px; color:color:#00A7FF;}`
-Mientras tanto, en el código HTML reemplazaríamos todo el atributo _style_ por _class="tuit"_.
-`<a href="https://twitter.com/intent/tweet?&text=La%20inspiraci%C3%B3n%20existe%2C%20pero%20tiene%20que%20encontrarte%20trabajando.%20%28Pablo%20Picasso%29&via=tuitgenerator&hashtags=CitasCelebres&related=EvaristoGZ,tuitgenerator" title="Click para tuitear este texto." target="_blank" **class="tuit"**>"La inspiración existe, pero tiene que encontrarte trabajando." - Pablo Picasso.</a>`
-Para opmitizar más aún el código puede subir a su servidor los iconos de cada tipo de interacción que se especifica en la propiedad _background_. De esta manera ahorra una petición a otro servidor. Cada tipo de interacción debe tener una clase en su hoja de estilos quedando así:
-`.tuit{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
-.retuit{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/retweet_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
-.favorito{background:url('https://si0.twimg.com/images/dev/cms/intents/icons/favorite_on.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}  
-.usuario{background:url('https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png')no-repeat left center;padding:1px 0 1px 18px;line-height:19px;color:#00A7FF}`
-Estos iconos los puedes encontrar en ["Image resources"](https://dev.twitter.com/docs/image-resources "Image resources") de la documentación oficial de Twitter.
-
-Por último, si desea que la interacción aparezca en una ventana nueva con un tamaño de unos 565x590 pixels (como el que aparece en los ejemplos) debe añadir una línea para cargar el fichero widgets.js desde los servidores de Twitter. Esta línea puede incluirla donde desee.
-`<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>`
 ### ¿Qué es Web Intents?
 
 En marzo de 2011, Twitter lanzó Web Intents para su interacción con los tuits y perfiles de usuario. Sus funciones: tuitear, retuitear, marcar como favorito y mostrar la información de un usuario, permiten el intercambio de información entre nuestra página web, blog o email y la red social Twitter.
