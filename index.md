@@ -1,3 +1,9 @@
+---
+layout: index
+title: Sobre el proyecto - tuitgenerator
+encabezado: Sobre el proyecto
+---
+
 # ¿Para qué sirve?
 
 tuitgenerator es una herramienta online que tiene como objetivo facilitar la interacción de contenido personalizado mediante la red social Twitter desde otros medios. Tras rellenar los campos del formulario se genera una dirección URL y un código HTML que puede incrustar directamente en páginas webs, blogs o emails. La característica de este método es que no es necesario salir de la página, ni tampoco autorizar una nueva aplicación para realizar una simple interacción. Los beneficios pueden ser muchos, uno de ellos es generar mayor tráfico hacia su página web.
