@@ -410,69 +410,6 @@ ul.follow_icon li {
 	list-style-type: circle;
 	margin: 2px 0 0 16px;
 }
-.about-topgrid1 {
-	width: 29%;
-	float: left;
-	margin-right: 5%;
-}
-.about-topgrid1 h3 {
-	color:#888;
-	font-size: 2em;
-	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
-}
-.about-topgrid1 img {
-	margin-bottom:10px;
-}
-.about-topgrid1 h5 {
-	color: #888;
-	font-size: 13px;
-	line-height: 1.5em;
-	padding-bottom:5px;
-}
-.about-topgrid1 p {
-	font-size: 0.8125em;
-	color: #999;
-	line-height: 1.5em;
-	padding: 4px 0px 8px 0px;
-}
-.about-histore {
-	float: left;
-	width: 30%;
-}
-.about-histore h3 {
-	color:#888;
-	font-size: 2em;
-	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
-}
-.about-histore ul li span {
-	color: #888;
-	font-size: 14px;
-	padding: 15px 0px 15px 0px;
-	margin-bottom: 13px;
-	float: left;
-	width: 15%;
-}
-.about-histore ul li p {
-	font-size: 0.8125em;
-	color: #999;
-	line-height: 1.5em;
-	padding: 4px 0px 8px 0px;
-	float: right;
-	width: 83%;
-}
-.about-services {
-	width: 30%;
-	float: left;
-	margin-left: 5%;
-}
-.about-services h3 {
-	color:#888;
-	font-size: 2em;
-	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
-}
 .questions {
 	margin: 10px 0 3px 0;
 }
@@ -488,39 +425,9 @@ ul.follow_icon li {
 	line-height: 1.5em;
 	padding: 4px 0px 8px 0px;
 }
-.comments-custom li {
-	overflow: hidden;
-	margin: 0;
-	padding: 0px 0 20px 0;
-	border-bottom: none;
-	background: none;
-}
-.comments-custom.unstyled .icon {
-	background: url(../images/comment.png) no-repeat 0 50%;
-	width: 37px;
-	height: 70px;
-	float: left;
-	border-right: 1px solid #D3D0D0;
-	padding: 0 8px 0 0;
-	margin: 0 10px 0 0;
-}
 .right-text {
 	width:80%;
 	float: left;
-}
-.comments-custom.unstyled .comments-custom_h {
-	color: #333;
-	font-size: 1em;
-	margin: -2px 0 0 0;
-}
-.comments-custom.unstyled .comments-custom_txt {
-	padding: 2px 0 0 0;
-	font-size: 13px;
-	line-height: 1.5em;
-}
-.comments-custom time {
-	font-size: 11px;
-	color: #333;
 }
 .span_1_of_about1 h3 {
 	color: #888;
@@ -530,15 +437,6 @@ ul.follow_icon li {
 }
 .about-top{
 	padding-bottom:3%;
-}
-.comments-custom.unstyled .comments-custom_txt a {
-	color: #999;
-}
-.comments-custom.unstyled .comments-custom_txt a:hover {
-	color:#0091FF;
-}
-.span_1_of_about1 {
-	width: 23.2%;
 }
 p.desc{
 	font: italic 18px PT Sans, sans-serif;
